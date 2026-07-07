@@ -1,0 +1,15 @@
+internal-storage:
+  scope-id: f981c8e712b241e499d18a1ff896fa35
+  items: {}
+enabled: true
+identifier: example3
+virtual: false
+glow: true
+item:
+  material: TRIPWIRE_HOOK
+  display-name: '&aExample #3 Crate Key'
+  lore:
+  - '&7This is a lore line'
+  - ''
+  - '&eUse this key in &6%crate%&e!'
+  amount: 1
