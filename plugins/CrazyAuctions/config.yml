@@ -1,6 +1,6 @@
 Settings:
-  Prefix: '&7[&4Crazy &bAuctions&7]: ' #Prefix of when you get Crazy Auctions Messages.
-  GUIName: '&4Crazy &bAuctions&8' #Name of the Main GUI.
+  Prefix: '&7[&bAuctions&7]: ' #Prefix of when you get Crazy Auctions Messages.
+  GUIName: '&0Auctions House&8' #Name of the Main GUI.
   Players-Current-Items: '&8Your Current Listings' #The Name of the Player Current Items GUI.
   Cancelled/Expired-Items: '&8Canceled/Expired Listings' #Name of the Cancelled/Expired GUI.
   Buying-Item: '&8Purchase Item: Are You Sure?' #Name of the Buying GUI.
@@ -123,7 +123,7 @@ Settings:
           - '&7items currently being sold.'
     OtherSettings: #Other Settings for the GUIs.
       SellingItems: #The button for your current items.
-        Item: 'DIAMOND' #The item that this button is.
+        Item: 'ENDER_CHEST' #The item that this button is.
         Toggle: true #If the item is in the gui or not.
         Slot: 46 #The slot it is in. I recommend not changing these. If you do make sure they are still in the bottom row.
         Name: '&6Items You are Selling' #Name of the item.
@@ -131,7 +131,7 @@ Settings:
           - '&aClick here to view all the items you'
           - '&aare currently selling on the auction.'
       Cancelled/ExpiredItems: #The button for Cancelled/Expired Items.
-        Item: 'POISONOUS_POTATO'
+        Item: 'GLOWSTONE_DUST'
         Toggle: true
         Slot: 47
         Name: '&6Collect Expired / Canceled Items'
@@ -139,26 +139,26 @@ Settings:
           - '&aClick here to view and collect all of the'
           - '&aitems you have canceled or has expired.'
       PreviousPage: #The button for Previous Page.
-        Item: 'PAPER'
+        Item: 'RED_SHULKER_BOX'
         Toggle: true
         Slot: 49
         Name: '&6Previous Page'
         Lore: { }
       Refesh: #The button for Refresh Page.
-        Item: 'SUNFLOWER'
+        Item: 'BELL'
         Toggle: true
         Slot: 50
         Name: '&6Refresh Page'
         Lore: { }
       NextPage: #The button for Next Page.
-        Item: 'PAPER'
+        Item: 'LIME_SHULKER_BOX'
         Toggle: true
         Slot: 51
         Name: '&6Next Page'
         Lore: { }
       Category1: #The button for Next Page.
         Item: 'CHEST'
-        Toggle: true
+        Toggle: false
         Slot: 52
         Name: '&6Categories'
         Lore:
@@ -167,7 +167,7 @@ Settings:
           - '&aClick here to see all categories of items.'
       Category2: #The button for Next Page.
         Item: 'CHEST'
-        Toggle: true
+        Toggle: false
         Slot: 48
         Name: '&6Categories'
         Lore:
@@ -177,7 +177,7 @@ Settings:
       Bidding/Selling: #Switch between Bidding and Selling.
         Selling:
           Item: 'SLIME_BALL'
-          Toggle: true
+          Toggle: false
           Slot: 53
           Name: '&6Currently looking at items being sold.'
           Lore:
@@ -185,7 +185,7 @@ Settings:
             - '&7that you can bid on.'
         Bidding:
           Item: 'MAGMA_CREAM'
-          Toggle: true
+          Toggle: false
           Slot: 53
           Name: '&6Currently looking at items that can be bid on.'
           Lore:
@@ -196,15 +196,12 @@ Settings:
           Item: 'BOOK'
           Toggle: true
           Slot: 54
-          Name: '&6What Is This Page?'
+          Name: '&a&lINFORMATION'
           Lore:
-            - '&aThis is the crazy auctions, here you can'
-            - '&aput items for sale, and buy items'
-            - '&athat others have put for sale.'
+            - '&fIn this menu, You can'
+            - '&fSell or Buy items!'
             - ''
-            - '&aThe auction is also a great place to make'
-            - '&amoney by selling items that others'
-            - '&amay be interested in buying.'
+            - '&a&lSell Items &f>> &a/ah sell'
         BiddingShop: #The Book in the main shop.
           Item: 'BOOK'
           Toggle: true

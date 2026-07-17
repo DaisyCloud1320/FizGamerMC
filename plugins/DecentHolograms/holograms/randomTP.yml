@@ -1,0 +1,18 @@
+location: survival:88.479:292.495:110.465
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '#ICON: GRASS_BLOCK'
+    height: 0.6
+  - content: '&b&lRandom Teleport'
+    height: 0.3
+  - content: '&7/rtp'
+    height: 0.3
+  - content: '&b↓ &fClick NPC &b↓'
+    height: 0.3
+  actions: {}

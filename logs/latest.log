@@ -1,475 +1,566 @@
-[13:35:01] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Microsoft Microsoft-13053558) on Linux 6.8.0-1052-azure (amd64)
-[13:35:01] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-132-ver/1.21.11@c5eb079 (2026-05-11T11:43:09Z) for Minecraft 1.21.11
-[13:35:01] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[13:35:03] [ServerMain/INFO]: [PluginInitializerManager] Initialized 28 plugins
-[13:35:03] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+[07:24:05] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Microsoft Microsoft-13053558) on Linux 6.8.0-1052-azure (amd64)
+[07:24:05] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-132-ver/1.21.11@c5eb079 (2026-05-11T11:43:09Z) for Minecraft 1.21.11
+[07:24:05] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[07:24:07] [ServerMain/INFO]: [PluginInitializerManager] Initialized 27 plugins
+[07:24:07] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
  - EconomyShopGUI (7.1.0)
-[13:35:03] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (27):
- - BetterRTP (3.6.13), Citizens (2.0.43-SNAPSHOT (build 4210)), ClearLag (3.2.2), CrazyAuctions (1.7.0), DecentHolograms (2.9.10), DeluxeHub (3.7.4), Essentials (2.22.1-dev+11-28eb89f), EssentialsChat (2.22.1-dev+11-28eb89f), EssentialsSpawn (2.22.1-dev+12-776f709), FastAsyncWorldEdit (2.15.2+e9ed0d1), ItemEdit (3.7.8), LuckPerms (5.5.0), Multiverse-Core (5.7.0), Multiverse-Inventories (5.3.4), PhoenixCratesLite (5.2.1), PlaceholderAPI (2.12.2), ProtocolLib (5.4.0), SkinsRestorer (15.12.4), TAB (6.1.0), Vault (1.7.3-b131), ViaBackwards (5.10.1-SNAPSHOT), ViaRewind (4.1.3-SNAPSHOT), ViaVersion (5.10.1-SNAPSHOT), WorldEdit (7.4.3+7515-78babeb), WorldGuard (7.0.17+2370-e42d8bc), playit-gg (0.2.0), voicechat (2.6.20)
-[13:35:07] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[13:35:10] [ServerMain/INFO]: Loaded 1470 recipes
-[13:35:10] [ServerMain/INFO]: Loaded 1584 advancements
-[13:35:10] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[13:35:10] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 405.0ms
-[13:35:10] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[13:35:10] [Server thread/INFO]: Loading properties
-[13:35:10] [Server thread/INFO]: This server is running Paper version 1.21.11-132-ver/1.21.11@c5eb079 (2026-05-11T11:43:09Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
-[13:35:10] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[13:35:11] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[13:35:11] [Server thread/INFO]: Using 4 threads for Netty based IO
-[13:35:11] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[13:35:11] [Server thread/INFO]: Default game type: SURVIVAL
-[13:35:11] [Server thread/INFO]: Generating keypair
-[13:35:12] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:35:12] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[13:35:12] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[13:35:12] [Server thread/WARN]: [ModernPluginLoadingStrategy] `WorldEdit' is provided by both `FastAsyncWorldEdit' and `WorldEdit'
-[13:35:12] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'worldedit-bukkit-7.4.3.jar' in folder 'plugins'
-java.lang.IllegalStateException: Provider SpigotPluginProvider{path=plugins/worldedit-bukkit-7.4.3.jar, description=org.bukkit.plugin.PluginDescriptionFile@27d1da1d, jarFile=worldedit-bukkit-7.4.3.jar@1b9678bb, status=null, dependencyContext=null} attempted to add duplicate plugin identifier FastAsyncWorldEdit v2.15.2+e9ed0d1 THIS WILL CREATE BUGS!!!
-	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage$1.applyContext(ServerPluginProviderStorage.java:28) ~[paper-1.21.11.jar:1.21.11-132-c5eb079]
-	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:113) ~[paper-1.21.11.jar:1.21.11-132-c5eb079]
-	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.11.jar:1.21.11-132-c5eb079]
-	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:39) ~[paper-1.21.11.jar:1.21.11-132-c5eb079]
-	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:555) ~[paper-1.21.11.jar:1.21.11-132-c5eb079]
-	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:320) ~[paper-1.21.11.jar:1.21.11-132-c5eb079]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1253) ~[paper-1.21.11.jar:1.21.11-132-c5eb079]
-	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388) ~[paper-1.21.11.jar:1.21.11-132-c5eb079]
-	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
-[13:35:13] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loading 4 libraries... please wait
-[13:35:13] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/FizGamerMC/libraries/ch/ethz/globis/phtree/phtree/2.8.2/phtree-2.8.2.jar
-[13:35:13] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/FizGamerMC/libraries/org/joml/joml/1.10.9/joml-1.10.9.jar
-[13:35:13] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/FizGamerMC/libraries/it/unimi/dsi/fastutil/8.5.16/fastutil-8.5.16.jar
-[13:35:13] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/FizGamerMC/libraries/team/unnamed/mocha/3.0.0/mocha-3.0.0.jar
-[13:35:13] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/FizGamerMC/libraries/org/javassist/javassist/3.30.2-GA/javassist-3.30.2-GA.jar
-[13:35:13] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/FizGamerMC/libraries/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
-[13:35:13] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loading 5 libraries... please wait
-[13:35:13] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/FizGamerMC/libraries/net/kyori/adventure-api/4.20.0/adventure-api-4.20.0.jar
-[13:35:13] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/FizGamerMC/libraries/net/kyori/adventure-key/4.20.0/adventure-key-4.20.0.jar
-[13:35:13] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/FizGamerMC/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
-[13:35:13] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/FizGamerMC/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
-[13:35:13] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/FizGamerMC/libraries/org/jetbrains/annotations/26.0.2/annotations-26.0.2.jar
-[13:35:13] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/FizGamerMC/libraries/net/kyori/adventure-platform-bukkit/4.3.4/adventure-platform-bukkit-4.3.4.jar
-[13:35:13] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/FizGamerMC/libraries/net/kyori/adventure-platform-api/4.3.4/adventure-platform-api-4.3.4.jar
-[13:35:13] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/FizGamerMC/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.4/adventure-text-serializer-bungeecord-4.3.4.jar
-[13:35:13] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/FizGamerMC/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
-[13:35:13] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/FizGamerMC/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
-[13:35:13] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/FizGamerMC/libraries/net/kyori/adventure-platform-facet/4.3.4/adventure-platform-facet-4.3.4.jar
-[13:35:13] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/FizGamerMC/libraries/net/kyori/adventure-platform-viaversion/4.3.4/adventure-platform-viaversion-4.3.4.jar
-[13:35:13] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/FizGamerMC/libraries/net/kyori/adventure-text-minimessage/4.20.0/adventure-text-minimessage-4.20.0.jar
-[13:35:13] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/FizGamerMC/libraries/net/kyori/adventure-text-serializer-gson/4.20.0/adventure-text-serializer-gson-4.20.0.jar
-[13:35:13] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/FizGamerMC/libraries/net/kyori/adventure-text-serializer-json/4.20.0/adventure-text-serializer-json-4.20.0.jar
-[13:35:13] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/FizGamerMC/libraries/net/kyori/option/1.1.0/option-1.1.0.jar
-[13:35:13] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/FizGamerMC/libraries/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar
-[13:35:13] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/FizGamerMC/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
-[13:35:13] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/FizGamerMC/libraries/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar
-[13:35:13] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/FizGamerMC/libraries/net/kyori/adventure-text-serializer-commons/4.20.0/adventure-text-serializer-commons-4.20.0.jar
-[13:35:13] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/FizGamerMC/libraries/net/kyori/adventure-text-serializer-legacy/4.20.0/adventure-text-serializer-legacy-4.20.0.jar
-[13:35:13] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.10.1-SNAPSHOT
-[13:35:13] [Server thread/INFO]: [ViaVersion] ViaVersion 5.10.1-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
-[13:35:14] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading block connection mappings ...
-[13:35:14] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[13:35:14] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[13:35:15] [Server thread/INFO]: [ViaRewind] Registering protocols...
-[13:35:15] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.0
-[13:35:15] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.12.2
-[13:35:15] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[13:35:15] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.7.0
-[13:35:15] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.2+e9ed0d1
-[13:35:16] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3aad4b7b]
-[13:35:16] [Server thread/INFO]: [DeluxeHub] Loading server plugin DeluxeHub v3.7.4
-[13:35:16] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.10.1-SNAPSHOT
-[13:35:16] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.22.1-dev+11-28eb89f
-[13:35:16] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
-[13:35:16] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
-[13:35:17] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.17+2370-e42d8bc
-[13:35:17] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.1.3-SNAPSHOT
-[13:35:17] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.22.1-dev+11-28eb89f
-[13:35:17] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.12.4
-[13:35:17] [Server thread/INFO]: [Citizens] Loading server plugin Citizens v2.0.43-SNAPSHOT (build 4210)
-[13:35:17] [Server thread/INFO]: [playit-gg] Loading server plugin playit-gg v0.2.0
-[13:35:17] [Server thread/INFO]: [InvLogging] Loading server plugin Multiverse-Inventories v5.3.4
-[13:35:17] [Server thread/INFO]: [BetterRTP] Loading server plugin BetterRTP v3.6.13
-[13:35:17] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
-[13:35:17] [Server thread/INFO]: [CrazyAuctions] Loading server plugin CrazyAuctions v1.7.0
-[13:35:17] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.22.1-dev+12-776f709
-[13:35:17] [Server thread/INFO]: [PhoenixCratesLite] Loading server plugin PhoenixCratesLite v5.2.1
-[13:35:17] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.6.20
-[13:35:17] [Server thread/INFO]: [DecentHolograms] Loading server plugin DecentHolograms v2.9.10
-[13:35:17] [Server thread/INFO]: [ItemEdit] Loading server plugin ItemEdit v3.7.8
-[13:35:17] [Server thread/INFO]: [TAB] Loading server plugin TAB v6.1.0
-[13:35:17] [Server thread/INFO]: [EconomyShopGUI] Loading server plugin EconomyShopGUI v7.1.0
-[13:35:17] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[13:35:17] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.0
-[13:35:17] [Server thread/INFO]:         __    
-[13:35:17] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.0
-[13:35:17] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[13:35:17] [Server thread/INFO]: 
-[13:35:17] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[13:35:18] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[13:35:18] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[13:35:18] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[13:35:18] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1341ms)
-[13:35:18] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[13:35:18] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[13:35:18] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[13:35:18] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[13:35:18] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[13:35:18] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.2+e9ed0d1
-[13:35:19] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
-[13:35:19] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
-[13:35:19] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[13:35:19] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[13:35:19] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightFaweAdapter as the Bukkit adapter
-[13:35:20] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
-[13:35:20] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.1.3-SNAPSHOT
-[13:35:20] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.12.4
-[13:35:21] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.11.
-[13:35:22] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[13:35:22] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.12.4]
-[13:35:22] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
-[13:35:22] [Server thread/INFO]: Preparing level "world"
-[13:35:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[13:35:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
-[13:35:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer   |
-[13:35:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |-------------------|
-[13:35:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode  |
-[13:35:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
-[13:35:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[13:35:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.12.4
-[13:35:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: a5b2c20
-[13:35:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[13:35:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[13:35:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[13:35:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer or receive priority support? Become a supporter: https://skinsrestorer.net/pricing
-[13:35:22] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] NUMA enable flag is not set; however there is NUMA interaction support for this OS.
-[13:35:22] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] Detected 1 NUMA nodes.
-[13:35:22] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
-[13:35:22] [Server thread/INFO]: Preparing spawn area: 100%
-[13:35:22] [Server thread/INFO]: Prepared spawn area in 2 ms
-[13:35:22] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[13:35:22] [Server thread/INFO]: Prepared spawn area in 1 ms
-[13:35:22] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[13:35:22] [Server thread/INFO]: Prepared spawn area in 3 ms
-[13:35:22] [Server thread/INFO]: Done preparing level "world" (0.643s)
-[13:35:22] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.10.1-SNAPSHOT
-[13:35:22] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.11 (774)
-[13:35:23] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.12.2
-[13:35:23] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[13:35:23] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.7.0
-[13:35:24] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: multiverse-core [5.7.0]
-[13:35:24] [Server thread/INFO]: [Multiverse-Core] API service loaded!
-[13:35:24] [Server thread/INFO]: [Multiverse-Core] Version 5.7.0 (API v5.7) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
-[13:35:24] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
-[13:35:24] [Server thread/INFO]: [DeluxeHub] Enabling DeluxeHub v3.7.4
-[13:35:24] [Server thread/INFO]: [DeluxeHub]  _   _            _          _    _ 
-[13:35:24] [Server thread/INFO]: [DeluxeHub] | \ |_ |  | | \/ |_ |_| | | |_)   _)
-[13:35:24] [Server thread/INFO]: [DeluxeHub] |_/ |_ |_ |_| /\ |_ | | |_| |_)   _)
-[13:35:24] [Server thread/INFO]: [DeluxeHub] 
-[13:35:24] [Server thread/INFO]: [DeluxeHub] Version: 3.7.4
-[13:35:24] [Server thread/INFO]: [DeluxeHub] Author: ItzSave & ItsLewizzz
-[13:35:24] [Server thread/INFO]: [DeluxeHub] 
-[13:35:24] [Server thread/INFO]: [DeluxeHub]  Hooked into PlaceholderAPI
-[13:35:24] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
-[13:35:24] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
-[13:35:24] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R7' loaded!
-[13:35:24] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DeluxeHub' to create a bStats instance!
-[13:35:24] [Server thread/INFO]: [DeluxeHub] Loaded 17 plugin modules.
-[13:35:24] [Server thread/INFO]: [DeluxeHub] 
-[13:35:24] [Server thread/INFO]: [DeluxeHub] Successfully loaded in 565ms
-[13:35:24] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.10.1-SNAPSHOT
-[13:35:24] [Server thread/INFO]: [Essentials] Enabling Essentials v2.22.1-dev+11-28eb89f
-[13:35:25] [Server thread/WARN]: [Essentials] Version mismatch! Please update EssentialsSpawn to the same version.
-[13:35:25] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[13:35:25] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[13:35:25] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
-[13:35:25] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
-[13:35:25] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
-[13:35:25] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[13:35:25] [Server thread/INFO]: [Essentials] Selected Paper 1.13+ Tile Entity Provider as the provider for TileEntityProvider
-[13:35:25] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[13:35:25] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[13:35:25] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[13:35:25] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[13:35:25] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[13:35:25] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[13:35:25] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[13:35:25] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[13:35:25] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[13:35:25] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[13:35:25] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[13:35:25] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[13:35:25] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[13:35:25] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[13:35:25] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
-[13:35:25] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[13:35:25] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[13:35:25] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[13:35:25] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[13:35:25] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[13:35:25] [Server thread/INFO]: [Essentials] Selected Modern (Registry-based) PatternType Provider as the provider for PatternTypeProvider
-[13:35:25] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[13:35:25] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
-[13:35:25] [Server thread/INFO]: [Essentials] Loaded 46861 items from items.json.
-[13:35:25] [Server thread/INFO]: [Essentials] Using locale en
-[13:35:25] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[13:35:25] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[13:35:25] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[13:35:25] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[13:35:25] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.17+2370-e42d8bc
-[13:35:26] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[13:35:26] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[13:35:26] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[13:35:26] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[13:35:26] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[13:35:26] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[13:35:26] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[13:35:26] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[13:35:26] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[13:35:26] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[13:35:26] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[13:35:26] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[13:35:26] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[13:35:26] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[13:35:26] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[13:35:26] [Server thread/INFO]: [WorldGuard] Loading region data...
-[13:35:26] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.22.1-dev+11-28eb89f
-[13:35:26] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
-[13:35:26] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.43-SNAPSHOT (build 4210)
-[13:35:26] [Server thread/INFO]: [Citizens] Loaded 2 templates.
-[13:35:26] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: citizens [1.0.0]
-[13:35:26] [Server thread/INFO]: [Citizens] Loaded economy handling via Vault.
-[13:35:27] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.2.0
-[13:35:27] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key found, checking
-[13:35:27] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
-[13:35:27] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v5.3.4
-[13:35:28] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret verified, ready to connect
-[13:35:28] [Thread-14/INFO]: [gg.playit.minecraft.PlayitManager] keys setup complete, ready to connect
-[13:35:28] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: multiverse-inventories [5.3.4]
-[13:35:28] [Server thread/INFO]: [Multiverse-Inventories] Loading player names map...
-[13:35:28] [Server thread/INFO]: [Multiverse-Inventories] Generating player names map... This may take a while.
-[13:35:28] [Server thread/INFO]: [Multiverse-Inventories] Generated player names map.
-[13:35:28] [Server thread/INFO]: [Multiverse-Inventories] Version 5.3.4 (API v5.3) Enabled - By dumptruckman and benwoo1110
-[13:35:28] [Server thread/INFO]: [BetterRTP] Enabling BetterRTP v3.6.13
-[13:35:28] [Server thread/INFO]: [BetterRTP] Cooldown = 600
-[13:35:28] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: betterrtp [3.6.13]
-[13:35:28] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
-[13:35:28] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
-[13:35:28] [Thread-14/WARN]: [gg.playit.control.ChannelSetup] Got IO error working with :/[2602:fbaf:848:1:0:0:0:1]:5525, error : java.net.SocketException: Network is unreachable
-[13:35:28] [Server thread/INFO]: [ClearLag] Loading modules...
-[13:35:28] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (Index 3 out of bounds for length 3)
-[13:35:28] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[13:35:28] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[13:35:28] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[13:35:28] [Thread-15/WARN]: [ClearLag] Clearlag failed to check for updates - bukkit may be down
-[13:35:28] [Thread-15/WARN]: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
-[13:35:28] [Thread-15/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.Util.getBukkitVersion(Util.java:105)
-[13:35:28] [Thread-15/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.BukkitUpdater.updateAvailable(BukkitUpdater.java:32)
-[13:35:28] [Thread-15/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.BukkitUpdater.run(BukkitUpdater.java:82)
-[13:35:28] [Thread-15/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1474)
-[13:35:28] [Server thread/INFO]: [CrazyAuctions] Enabling CrazyAuctions v1.7.0
-[13:35:28] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.22.1-dev+12-776f709
-[13:35:28] [Server thread/WARN]: [EssentialsSpawn] Version mismatch! Please update all Essentials jars to the same version.
-[13:35:28] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[13:35:28] [Server thread/INFO]: [PhoenixCratesLite] Enabling PhoenixCratesLite v5.2.1
-[13:35:28] [Server thread/INFO]: Loading cross version adapter...
-[13:35:28] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[13:35:29] [Thread-14/INFO]: [gg.playit.minecraft.PlayitManager] found minecraft java tunnel: wheat-substance.gl.joinmc.link
-[13:35:38] [Server thread/INFO]:   ____    ____                               
-[13:35:38] [Server thread/INFO]:  |  _ \  / ___|                              
-[13:35:38] [Server thread/INFO]:  | |_) || |       Phoenix Crates Lite v5.2.1      
-[13:35:38] [Server thread/INFO]:  |  __/ | |___    https://phoenixplugins.com/
-[13:35:38] [Server thread/INFO]:  |_|     \____|                             
-[13:35:38] [Server thread/INFO]:                                                  
-[13:35:38] [Server thread/INFO]: Loading settings...
-[13:35:38] [Server thread/INFO]: Loading file "config.yml".
-[13:35:38] [Server thread/INFO]: File "config.yml" is up to date. Importing configurations.
-[13:35:38] [Server thread/INFO]: Vault founded. Preparing hook...
-[13:35:38] [Server thread/INFO]: Checking for internal patchs...
-[13:35:38] [Server thread/INFO]: [PhoenixCratesLite] Current patch: #202509111232
-[13:35:38] [Server thread/INFO]: [PhoenixCratesLite] No patches to run.
-[13:35:38] [Server thread/INFO]: Placeholder API founded. Preparing placeholders...
-[13:35:38] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: phoenixcrates [1.0.0]
-[13:35:38] [Server thread/INFO]: Model Engine is not installed. If you want to support custom models in this plugin install it.
-[13:35:38] [Server thread/INFO]: -> (Meg 3) See more at: https://www.spigotmc.org/resources/conxeptworks-legacy-model-engine-1-16-5-1-20.79477/
-[13:35:38] [Server thread/INFO]: -> (Meg 4) See more at: https://mythiccraft.io/index.php?resources/20-off-model-engine%E2%80%94ultimate-entity-model-manager-1-19-4-1-20-1.1213/
-[13:35:38] [Server thread/INFO]: Loading components...
-[13:35:38] [Server thread/INFO]: Loading hologram templates...
-[13:35:38] [Server thread/INFO]: Loading file "templates.yml".
-[13:35:38] [Server thread/INFO]: File "templates.yml" is up to date. Importing configurations.
-[13:35:38] [Server thread/INFO]: Loading database...
-[13:35:38] [Server thread/WARN]: 4 [Server thread] INFO com.phoenixplugins.phoenixcrates.lib.hikari.HikariDataSource - CyberSQLitePool - Starting...
-[13:35:38] [Server thread/WARN]: 20 [Server thread] INFO com.phoenixplugins.phoenixcrates.lib.hikari.HikariDataSource - CyberSQLitePool - Start completed.
-[13:35:38] [Server thread/INFO]: Loading menus...
-[13:35:38] [Server thread/INFO]: Loading file "menus/default_rewards_preview.yml".
-[13:35:38] [Server thread/INFO]: File "menus/default_rewards_preview.yml" is up to date. Importing configurations.
-[13:35:38] [Server thread/INFO]: Loading file "menus/default_select_reward.yml".
-[13:35:38] [Server thread/INFO]: File "menus/default_select_reward.yml" is up to date. Importing configurations.
-[13:35:38] [Server thread/INFO]: Loading file "menus/confirmation_menu.yml".
-[13:35:38] [Server thread/INFO]: File "menus/confirmation_menu.yml" is up to date. Importing configurations.
-[13:35:38] [Server thread/INFO]: Loading file "internal_storage.yml".
-[13:35:38] [Server thread/INFO]: File "internal_storage.yml" is up to date. Importing configurations.
-[13:35:38] [Server thread/INFO]: Loading players data...
-[13:35:38] [Server thread/INFO]: Loading keys...
-[13:35:38] [Server thread/INFO]: No resource with the name "key.yml" founded.
-[13:35:38] [Server thread/INFO]: Loading file "keys/example2.yml".
-[13:35:38] [Server thread/INFO]: File "keys/example2.yml" is up to date. Importing configurations.
-[13:35:38] [Server thread/INFO]: No resource with the name "key.yml" founded.
-[13:35:38] [Server thread/INFO]: Loading file "keys/example3.yml".
-[13:35:38] [Server thread/INFO]: File "keys/example3.yml" is up to date. Importing configurations.
-[13:35:38] [Server thread/INFO]: No resource with the name "key.yml" founded.
-[13:35:38] [Server thread/INFO]: Loading file "keys/example1.yml".
-[13:35:38] [Server thread/INFO]: File "keys/example1.yml" is up to date. Importing configurations.
-[13:35:38] [Server thread/INFO]: Loaded 3 keys.
-[13:35:38] [Server thread/INFO]: Loading crates...
-[13:35:38] [Server thread/INFO]: Loading file "locations.yml".
-[13:35:38] [Server thread/INFO]: File "locations.yml" is up to date. Importing configurations.
-[13:35:38] [Server thread/INFO]: Loading file "crates/example2.yml".
-[13:35:38] [Server thread/INFO]: File "crates/example2.yml" is up to date. Importing configurations.
-[13:35:38] [Server thread/INFO]: Loading file "crates/example3.yml".
-[13:35:38] [Server thread/INFO]: File "crates/example3.yml" is up to date. Importing configurations.
-[13:35:38] [Server thread/INFO]: Loading file "crates/example1.yml".
-[13:35:38] [Server thread/INFO]: File "crates/example1.yml" is up to date. Importing configurations.
-[13:35:38] [Server thread/INFO]: Loaded 3 types.
-[13:35:38] [Server thread/INFO]: Loaded 0 crates.
-[13:35:38] [Server thread/INFO]: Loading commands...
-[13:35:38] [Server thread/INFO]: 
-[13:35:38] [Server thread/INFO]: Plugin loaded successfully!
-[13:35:38] [Server thread/INFO]: [Any questions or problems that may arise, contact us through
-[13:35:38] [Server thread/INFO]: the website or our discord: https://phoenixplugins.com/media/discord]
-[13:35:38] [Server thread/INFO]: 
-[13:35:38] [Server thread/INFO]: [voicechat] Enabling voicechat v2.6.20
-[13:35:38] [Server thread/INFO]: [voicechat] Initializing compatibility for version 1.21.11-R0.1
-[13:35:38] [Server thread/INFO]: [voicechat] Compatibility version 20
-[13:35:38] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
-[13:35:38] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: voicechat [2.6.20]
-[13:35:38] [Server thread/INFO]: [voicechat] Successfully registered PlaceholderAPI expansion
-[13:35:38] [Server thread/INFO]: [voicechat] Successfully added ViaVersion mappings
-[13:35:38] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.9.10
-[13:35:38] [Server thread/INFO]: [DecentHolograms] Initialized NMS adapter for paper_v1_21_R7 (1.21.11).
-[13:35:38] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
-[13:35:38] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R7' loaded!
-[13:35:38] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DecentHolograms' to create a bStats instance!
-[13:35:38] [Server thread/INFO]: [DecentHolograms] NBT-API loaded successfully.
-[13:35:38] [Server thread/INFO]: [ItemEdit] Enabling ItemEdit v3.7.8
-[13:35:39] [Server thread/INFO]: [ItemEdit] Hooking into MiniMessageAPI see https://webui.advntr.dev/
-[13:35:39] [Server thread/INFO]: [ItemEdit] Selected Storage Type: YAML
-[13:35:39] [Server thread/INFO]: [ItemEdit] Hooking into Vault
-[13:35:39] [Server thread/INFO]: [ItemEdit] Hooking into PlaceHolderAPI
-[13:35:39] [Server thread/INFO]: [ItemEdit] placeholders:
-[13:35:39] [Server thread/INFO]: [ItemEdit]   %itemedit_amount_<{itemid}>_[{slot}]_[{player}]%
-[13:35:39] [Server thread/INFO]: [ItemEdit]     shows how many itemid player has on slot
-[13:35:39] [Server thread/INFO]: [ItemEdit]     <{itemid}> for item id on serveritem
-[13:35:39] [Server thread/INFO]: [ItemEdit]     [{slot}] for the slot where the item should be counted, by default inventory
-[13:35:39] [Server thread/INFO]: [ItemEdit]       Values: inventory (include offhand), equip (include offhand), inventoryandequip (include offhand), hand, offhand, head, chest, legs, feet
-[13:35:39] [Server thread/INFO]: [ItemEdit]     [{player}] for the player, by default self
-[13:35:39] [Server thread/INFO]: [ItemEdit]     example: %itemedit_amount_{my_item_id}_{hand}%
-[13:35:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: itemedit [1.0]
-[13:35:39] [Server thread/INFO]: [ItemEdit] # Enabled (took 111 ms)
-[13:35:39] [Server thread/INFO]: [TAB] Enabling TAB v6.1.0
-[13:35:39] [Server thread/INFO]: [TAB] Found NMS implementation: me.neznamy.tab.platforms.bukkit.paper_1_21_11.NMSImplementationProvider
-[13:35:39] [Server thread/INFO]: [TAB] Enabled in 220ms
-[13:35:39] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v7.1.0
-[13:35:39] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initializing paper meta...
-[13:35:39] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-en.yml as language file
-[13:35:39] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 section configs from /sections/
-[13:35:39] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 shop configs from /shops/
-[13:35:39] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Updating Shop settings...
-[13:35:39] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into Vault and using EssentialsX Economy as economy provider
-[13:35:39] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 1 economy provider(s) for all 14 shop sections.
-[13:35:39] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using minecraft version 1.21.11...
-[13:35:39] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Spawner provider set to AUTO in config
-[13:35:39] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
-[13:35:39] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Failed to automatically find compatible spawner provider, using default...
-[13:35:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: esgui [1.1.0]
-[13:35:39] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Debug mode is enabled.
-[13:35:39] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Loading all items...
-[13:35:40] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initialized - Took 665ms to complete
-[13:35:40] [ESGUI_UTIL_THREAD #0/INFO]: [EconomyShopGUI] [INFO]: There is an update available for EconomyShopGUI, you are running v7.1.0 but found v7.1.1.
-[13:35:40] [ESGUI_UTIL_THREAD #0/INFO]: [EconomyShopGUI] [INFO]: Download at: https://www.spigotmc.org/resources/economyshopgui.69927/
-[13:35:40] [Server thread/INFO]: [spark] Starting background profiler...
-[13:35:40] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[13:35:40] [Server thread/INFO]: 0 placeholder hook(s) registered!
-[13:35:40] [Server thread/INFO]: Running delayed init tasks
-[13:35:40] [Craft Scheduler Thread - 1 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[13:35:40] [Craft Scheduler Thread - 0 - Essentials/INFO]: [Essentials] Fetching version information...
-[13:35:40] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.regions.WorldGuardFeature] Plugin 'WorldGuard' found. Using it now.
-[13:35:40] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.FaweBukkit] Attempting to use plugin 'WorldGuard'
-[13:35:40] [Craft Scheduler Thread - 1 - Vault/INFO]: [Vault] Checking for Updates ... 
-[13:35:40] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[13:35:40] [Craft Scheduler Thread - 6 - ItemEdit/INFO]: [ItemEdit] NEW UPDATE (3.7.8 -> 3.7.10) available at https://modrinth.com/plugin/itemedit/version/latest
-[13:35:40] [Craft Scheduler Thread - 4 - DecentHolograms/INFO]: 
+[07:24:07] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (26):
+ - BetterRTP (3.6.13), Citizens (2.0.43-SNAPSHOT (build 4210)), ClearLag (3.2.2), CrazyAuctions (1.7.0), DecentHolograms (2.9.10), DeluxeHub (3.7.4), Essentials (2.22.1-dev+11-28eb89f), EssentialsChat (2.22.1-dev+11-28eb89f), EssentialsSpawn (2.22.1-dev+12-776f709), FastAsyncWorldEdit (2.15.2+e9ed0d1), ItemEdit (3.7.8), LuckPerms (5.5.0), Multiverse-Core (5.7.0), Multiverse-Inventories (5.3.4), PhoenixCratesLite (5.2.1), PlaceholderAPI (2.12.2), ProtocolLib (5.4.0), SkinsRestorer (15.12.4), TAB (6.1.0), Vault (1.7.3-b131), ViaBackwards (5.10.1-SNAPSHOT), ViaRewind (4.1.3-SNAPSHOT), ViaVersion (5.10.1-SNAPSHOT), WorldGuard (7.0.17+2370-e42d8bc), playit-gg (0.2.0), voicechat (2.6.20)
+[07:24:11] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[07:24:14] [ServerMain/INFO]: Loaded 1470 recipes
+[07:24:14] [ServerMain/INFO]: Loaded 1584 advancements
+[07:24:14] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[07:24:14] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 333.6ms
+[07:24:14] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[07:24:14] [Server thread/INFO]: Loading properties
+[07:24:14] [Server thread/INFO]: This server is running Paper version 1.21.11-132-ver/1.21.11@c5eb079 (2026-05-11T11:43:09Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[07:24:14] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[07:24:14] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[07:24:14] [Server thread/INFO]: Using 4 threads for Netty based IO
+[07:24:15] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[07:24:15] [Server thread/INFO]: Default game type: SURVIVAL
+[07:24:15] [Server thread/INFO]: Generating keypair
+[07:24:15] [Server thread/INFO]: Starting Minecraft server on *:25565
+[07:24:15] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[07:24:15] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[07:24:16] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loading 4 libraries... please wait
+[07:24:16] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/FizGamerMC/libraries/ch/ethz/globis/phtree/phtree/2.8.2/phtree-2.8.2.jar
+[07:24:16] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/FizGamerMC/libraries/org/joml/joml/1.10.9/joml-1.10.9.jar
+[07:24:16] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/FizGamerMC/libraries/it/unimi/dsi/fastutil/8.5.16/fastutil-8.5.16.jar
+[07:24:16] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/FizGamerMC/libraries/team/unnamed/mocha/3.0.0/mocha-3.0.0.jar
+[07:24:16] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/FizGamerMC/libraries/org/javassist/javassist/3.30.2-GA/javassist-3.30.2-GA.jar
+[07:24:16] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/FizGamerMC/libraries/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
+[07:24:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loading 5 libraries... please wait
+[07:24:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/FizGamerMC/libraries/net/kyori/adventure-api/4.20.0/adventure-api-4.20.0.jar
+[07:24:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/FizGamerMC/libraries/net/kyori/adventure-key/4.20.0/adventure-key-4.20.0.jar
+[07:24:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/FizGamerMC/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[07:24:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/FizGamerMC/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[07:24:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/FizGamerMC/libraries/org/jetbrains/annotations/26.0.2/annotations-26.0.2.jar
+[07:24:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/FizGamerMC/libraries/net/kyori/adventure-platform-bukkit/4.3.4/adventure-platform-bukkit-4.3.4.jar
+[07:24:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/FizGamerMC/libraries/net/kyori/adventure-platform-api/4.3.4/adventure-platform-api-4.3.4.jar
+[07:24:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/FizGamerMC/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.4/adventure-text-serializer-bungeecord-4.3.4.jar
+[07:24:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/FizGamerMC/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
+[07:24:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/FizGamerMC/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[07:24:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/FizGamerMC/libraries/net/kyori/adventure-platform-facet/4.3.4/adventure-platform-facet-4.3.4.jar
+[07:24:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/FizGamerMC/libraries/net/kyori/adventure-platform-viaversion/4.3.4/adventure-platform-viaversion-4.3.4.jar
+[07:24:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/FizGamerMC/libraries/net/kyori/adventure-text-minimessage/4.20.0/adventure-text-minimessage-4.20.0.jar
+[07:24:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/FizGamerMC/libraries/net/kyori/adventure-text-serializer-gson/4.20.0/adventure-text-serializer-gson-4.20.0.jar
+[07:24:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/FizGamerMC/libraries/net/kyori/adventure-text-serializer-json/4.20.0/adventure-text-serializer-json-4.20.0.jar
+[07:24:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/FizGamerMC/libraries/net/kyori/option/1.1.0/option-1.1.0.jar
+[07:24:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/FizGamerMC/libraries/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar
+[07:24:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/FizGamerMC/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[07:24:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/FizGamerMC/libraries/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar
+[07:24:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/FizGamerMC/libraries/net/kyori/adventure-text-serializer-commons/4.20.0/adventure-text-serializer-commons-4.20.0.jar
+[07:24:17] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/FizGamerMC/libraries/net/kyori/adventure-text-serializer-legacy/4.20.0/adventure-text-serializer-legacy-4.20.0.jar
+[07:24:17] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.10.1-SNAPSHOT
+[07:24:17] [Server thread/INFO]: [ViaVersion] ViaVersion 5.10.1-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
+[07:24:18] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading block connection mappings ...
+[07:24:18] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[07:24:18] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[07:24:19] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[07:24:19] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.0
+[07:24:19] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.12.2
+[07:24:19] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[07:24:19] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.7.0
+[07:24:19] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.2+e9ed0d1
+[07:24:21] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@44a631d4]
+[07:24:21] [Server thread/INFO]: [DeluxeHub] Loading server plugin DeluxeHub v3.7.4
+[07:24:21] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.10.1-SNAPSHOT
+[07:24:21] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.22.1-dev+11-28eb89f
+[07:24:21] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
+[07:24:21] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
+[07:24:21] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.17+2370-e42d8bc
+[07:24:21] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.1.3-SNAPSHOT
+[07:24:21] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.22.1-dev+11-28eb89f
+[07:24:21] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.12.4
+[07:24:21] [Server thread/INFO]: [Citizens] Loading server plugin Citizens v2.0.43-SNAPSHOT (build 4210)
+[07:24:21] [Server thread/INFO]: [playit-gg] Loading server plugin playit-gg v0.2.0
+[07:24:21] [Server thread/INFO]: [InvLogging] Loading server plugin Multiverse-Inventories v5.3.4
+[07:24:21] [Server thread/INFO]: [BetterRTP] Loading server plugin BetterRTP v3.6.13
+[07:24:21] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
+[07:24:21] [Server thread/INFO]: [CrazyAuctions] Loading server plugin CrazyAuctions v1.7.0
+[07:24:21] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.22.1-dev+12-776f709
+[07:24:21] [Server thread/INFO]: [PhoenixCratesLite] Loading server plugin PhoenixCratesLite v5.2.1
+[07:24:21] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.6.20
+[07:24:21] [Server thread/INFO]: [DecentHolograms] Loading server plugin DecentHolograms v2.9.10
+[07:24:21] [Server thread/INFO]: [ItemEdit] Loading server plugin ItemEdit v3.7.8
+[07:24:21] [Server thread/INFO]: [TAB] Loading server plugin TAB v6.1.0
+[07:24:21] [Server thread/INFO]: [EconomyShopGUI] Loading server plugin EconomyShopGUI v7.1.0
+[07:24:21] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[07:24:21] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.0
+[07:24:22] [Server thread/INFO]:         __    
+[07:24:22] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.0
+[07:24:22] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[07:24:22] [Server thread/INFO]: 
+[07:24:22] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[07:24:22] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[07:24:22] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[07:24:22] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[07:24:22] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1296ms)
+[07:24:22] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[07:24:22] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[07:24:22] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[07:24:23] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[07:24:23] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[07:24:23] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.2+e9ed0d1
+[07:24:23] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[07:24:23] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[07:24:23] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[07:24:23] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[07:24:23] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightFaweAdapter as the Bukkit adapter
+[07:24:25] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
+[07:24:25] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.1.3-SNAPSHOT
+[07:24:25] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.12.4
+[07:24:25] [ForkJoinPool.commonPool-worker-1/WARN]: [com.fastasyncworldedit.core.util.UpdateNotification] A new release for FastAsyncWorldEdit is available: 2.15.3. You are currently on 2.15.2.
+Download from https://modrinth.com/plugin/fastasyncworldedit or https://hangar.papermc.io/IntellectualSites/FastAsyncWorldEdit
+[07:24:25] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.11.
+[07:24:26] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[07:24:26] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.12.4]
+[07:24:26] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[07:24:26] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[07:24:26] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[07:24:26] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[07:24:26] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[07:24:26] [Server thread/INFO]: Preparing level "world"
+[07:24:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[07:24:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
+[07:24:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer   |
+[07:24:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |-------------------|
+[07:24:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode  |
+[07:24:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
+[07:24:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[07:24:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.12.4
+[07:24:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: a5b2c20
+[07:24:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[07:24:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[07:24:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[07:24:26] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer or receive priority support? Become a supporter: https://skinsrestorer.net/pricing
+[07:24:26] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] NUMA enable flag is not set; however there is NUMA interaction support for this OS.
+[07:24:26] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] Detected 1 NUMA nodes.
+[07:24:27] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[07:24:27] [Server thread/INFO]: Preparing spawn area: 100%
+[07:24:27] [Server thread/INFO]: Prepared spawn area in 1 ms
+[07:24:27] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[07:24:27] [Server thread/INFO]: Prepared spawn area in 1 ms
+[07:24:27] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[07:24:27] [Server thread/INFO]: Prepared spawn area in 1 ms
+[07:24:27] [Server thread/INFO]: Done preparing level "world" (0.708s)
+[07:24:27] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.10.1-SNAPSHOT
+[07:24:27] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.11 (774)
+[07:24:27] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.12.2
+[07:24:27] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[07:24:27] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.7.0
+[07:24:28] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:survival'...
+[07:24:28] [Server thread/INFO]: Prepared spawn area in 1 ms
+[07:24:28] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: multiverse-core [5.7.0]
+[07:24:28] [Server thread/INFO]: [Multiverse-Core] API service loaded!
+[07:24:28] [Server thread/INFO]: [Multiverse-Core] Version 5.7.0 (API v5.7) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
+[07:24:28] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
+[07:24:28] [Server thread/INFO]: [DeluxeHub] Enabling DeluxeHub v3.7.4
+[07:24:28] [Server thread/INFO]: [DeluxeHub]  _   _            _          _    _ 
+[07:24:28] [Server thread/INFO]: [DeluxeHub] | \ |_ |  | | \/ |_ |_| | | |_)   _)
+[07:24:28] [Server thread/INFO]: [DeluxeHub] |_/ |_ |_ |_| /\ |_ | | |_| |_)   _)
+[07:24:28] [Server thread/INFO]: [DeluxeHub] 
+[07:24:28] [Server thread/INFO]: [DeluxeHub] Version: 3.7.4
+[07:24:28] [Server thread/INFO]: [DeluxeHub] Author: ItzSave & ItsLewizzz
+[07:24:28] [Server thread/INFO]: [DeluxeHub] 
+[07:24:28] [Server thread/INFO]: [DeluxeHub]  Hooked into PlaceholderAPI
+[07:24:29] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
+[07:24:29] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
+[07:24:29] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R7' loaded!
+[07:24:29] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DeluxeHub' to create a bStats instance!
+[07:24:29] [Server thread/INFO]: [DeluxeHub] Loaded 14 plugin modules.
+[07:24:29] [Server thread/INFO]: [DeluxeHub] 
+[07:24:29] [Server thread/INFO]: [DeluxeHub] Successfully loaded in 708ms
+[07:24:29] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.10.1-SNAPSHOT
+[07:24:29] [Server thread/INFO]: [Essentials] Enabling Essentials v2.22.1-dev+11-28eb89f
+[07:24:29] [Server thread/WARN]: [Essentials] Version mismatch! Please update EssentialsSpawn to the same version.
+[07:24:29] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[07:24:29] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[07:24:29] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[07:24:29] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[07:24:29] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[07:24:29] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[07:24:29] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[07:24:29] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[07:24:29] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[07:24:29] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[07:24:29] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[07:24:29] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[07:24:29] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[07:24:29] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[07:24:29] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[07:24:29] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[07:24:29] [Server thread/INFO]: [Essentials] Selected Paper 1.13+ Tile Entity Provider as the provider for TileEntityProvider
+[07:24:29] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[07:24:29] [Server thread/INFO]: [Essentials] Selected Modern (Registry-based) PatternType Provider as the provider for PatternTypeProvider
+[07:24:29] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[07:24:29] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[07:24:29] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[07:24:29] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[07:24:29] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[07:24:29] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[07:24:29] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[07:24:29] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[07:24:30] [Server thread/INFO]: [Essentials] Loaded 46861 items from items.json.
+[07:24:30] [Server thread/INFO]: [Essentials] Using locale en
+[07:24:30] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[07:24:30] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[07:24:30] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[07:24:30] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[07:24:30] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.17+2370-e42d8bc
+[07:24:30] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[07:24:30] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[07:24:30] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[07:24:30] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[07:24:30] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[07:24:30] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[07:24:30] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[07:24:30] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[07:24:30] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[07:24:30] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[07:24:30] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[07:24:30] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[07:24:30] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[07:24:30] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[07:24:30] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[07:24:30] [Server thread/INFO]: [WorldGuard] (survival) TNT ignition is PERMITTED.
+[07:24:30] [Server thread/INFO]: [WorldGuard] (survival) Lighters are PERMITTED.
+[07:24:30] [Server thread/INFO]: [WorldGuard] (survival) Lava fire is PERMITTED.
+[07:24:30] [Server thread/INFO]: [WorldGuard] (survival) Fire spread is UNRESTRICTED.
+[07:24:30] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'survival'
+[07:24:30] [Server thread/INFO]: [WorldGuard] Loading region data...
+[07:24:31] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.22.1-dev+11-28eb89f
+[07:24:31] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[07:24:31] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.43-SNAPSHOT (build 4210)
+[07:24:31] [Server thread/INFO]: [Citizens] Loaded 2 templates.
+[07:24:31] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: citizens [1.0.0]
+[07:24:31] [Server thread/INFO]: [Citizens] Loaded economy handling via Vault.
+[07:24:31] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.2.0
+[07:24:32] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key found, checking
+[07:24:32] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[07:24:32] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v5.3.4
+[07:24:32] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: multiverse-inventories [5.3.4]
+[07:24:32] [Server thread/INFO]: [Multiverse-Inventories] Loading player names map...
+[07:24:32] [Server thread/INFO]: [Multiverse-Inventories] Version 5.3.4 (API v5.3) Enabled - By dumptruckman and benwoo1110
+[07:24:32] [Server thread/INFO]: [BetterRTP] Enabling BetterRTP v3.6.13
+[07:24:33] [Thread-14/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret verified, ready to connect
+[07:24:33] [Thread-14/INFO]: [gg.playit.minecraft.PlayitManager] keys setup complete, ready to connect
+[07:24:33] [Server thread/INFO]: [BetterRTP] Cooldown = 180
+[07:24:33] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: betterrtp [3.6.13]
+[07:24:33] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[07:24:33] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[07:24:33] [Server thread/INFO]: [ClearLag] Loading modules...
+[07:24:33] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (Index 3 out of bounds for length 3)
+[07:24:33] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[07:24:33] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[07:24:33] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[07:24:33] [Thread-15/WARN]: [ClearLag] Clearlag failed to check for updates - bukkit may be down
+[07:24:33] [Thread-15/WARN]: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+[07:24:33] [Thread-15/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.Util.getBukkitVersion(Util.java:105)
+[07:24:33] [Thread-15/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.BukkitUpdater.updateAvailable(BukkitUpdater.java:32)
+[07:24:33] [Thread-15/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.BukkitUpdater.run(BukkitUpdater.java:82)
+[07:24:33] [Thread-15/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1474)
+[07:24:33] [Server thread/INFO]: [CrazyAuctions] Enabling CrazyAuctions v1.7.0
+[07:24:33] [Thread-14/WARN]: [gg.playit.control.ChannelSetup] Got IO error working with :/[2602:fbaf:848:1:0:0:0:1]:5525, error : java.net.SocketException: Network is unreachable
+[07:24:33] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.22.1-dev+12-776f709
+[07:24:33] [Server thread/WARN]: [EssentialsSpawn] Version mismatch! Please update all Essentials jars to the same version.
+[07:24:33] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[07:24:33] [Server thread/INFO]: [PhoenixCratesLite] Enabling PhoenixCratesLite v5.2.1
+[07:24:33] [Server thread/INFO]: Loading cross version adapter...
+[07:24:33] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[07:24:33] [Thread-14/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
+[07:24:35] [Thread-14/INFO]: [gg.playit.minecraft.PlayitManager] found minecraft java tunnel: wheat-substance.gl.joinmc.link
+[07:24:39] [Thread-14/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.225:8978, peerAddr=106.203.235.47:62690, claimAddress=209.25.142.2:43784, claimToken=[44, 0, 108, -109, -71, -35, -31, 35, 18, 106, -53, -21, 47, -12, -30, 107, -14, 125, 122, -85, 8, 106, 89, -40, -73, 0, 0, 0, 0, 0, 37, 9, -121, 0, 0, 0, 0, 0, 98, 47, -62, 0, 0, 0, 0, 0, 64, 93, -7, -10, 85, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 2, 0, 1, 0, 38, 37, 0, -122, 6, 30, 119, 104, 101, 97, 116, 45, 115, 117, 98, 115, 116, 97, 110, 99, 101, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, 32, 38, -71, 119, 8, 60, 47, -9, 84, -1, -30, -62, -110, 61, -119, 105], tunnelServerId=0, tunnelId=4218361, dataCenterId=28, portOffset=0}
+[07:24:39] [Thread-14/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[07:24:39] [Thread-14/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43784 to claim client
+[07:24:39] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[07:24:39] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[07:24:39] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[07:24:39] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[07:24:39] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[07:24:40] [Thread-14/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.225:8978, peerAddr=106.203.235.47:62696, claimAddress=209.25.142.2:43784, claimToken=[44, 0, 108, -109, -71, -35, -31, 35, 18, 106, -53, -21, 47, -12, -24, 99, 95, 99, -87, -85, 8, 106, 89, -40, -72, 0, 0, 0, 0, 0, 37, 9, -121, 0, 0, 0, 0, 0, 98, 47, -62, 0, 0, 0, 0, 0, 64, 93, -7, 34, -124, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 2, 0, 2, 0, 38, 37, 0, -122, 6, 30, 119, 104, 101, 97, 116, 45, 115, 117, 98, 115, 116, 97, 110, 99, 101, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, -44, -75, 112, 59, 48, -73, -30, 22, 78, 41, 19, 89, -10, 124, -94, 38], tunnelServerId=0, tunnelId=4218361, dataCenterId=28, portOffset=0}
+[07:24:40] [Thread-14/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[07:24:40] [Thread-14/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43784 to claim client
+[07:24:40] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[07:24:40] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[07:24:40] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[07:24:40] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[07:24:40] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[07:24:40] [Thread-14/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.225:8978, peerAddr=106.203.235.47:62704, claimAddress=209.25.142.2:43784, claimToken=[44, 0, 108, -109, -71, -35, -31, 35, 18, 106, -53, -21, 47, -12, -16, -81, 49, -96, -98, -85, 8, 106, 89, -40, -72, 0, 0, 0, 0, 0, 37, 9, -121, 0, 0, 0, 0, 0, 98, 47, -62, 0, 0, 0, 0, 0, 64, 93, -7, 65, 121, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 2, 0, 2, 0, 38, 37, 0, -122, 6, 30, 119, 104, 101, 97, 116, 45, 115, 117, 98, 115, 116, 97, 110, 99, 101, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, 90, -128, 64, 17, 62, -111, -112, 87, 79, 123, -118, -61, -55, -26, 42, 68], tunnelServerId=0, tunnelId=4218361, dataCenterId=28, portOffset=0}
+[07:24:40] [Thread-14/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[07:24:40] [Thread-14/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43784 to claim client
+[07:24:40] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[07:24:40] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[07:24:40] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[07:24:40] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[07:24:40] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[07:24:41] [Thread-14/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.225:8978, peerAddr=106.203.235.47:62712, claimAddress=209.25.142.2:43784, claimToken=[44, 0, 108, -109, -71, -35, -31, 35, 18, 106, -53, -21, 47, -12, -8, 124, -67, -91, 0, -85, 8, 106, 89, -40, -71, 0, 0, 0, 0, 0, 37, 9, -121, 0, 0, 0, 0, 0, 98, 47, -62, 0, 0, 0, 0, 0, 64, 93, -7, 84, -37, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 38, 37, 0, -122, 6, 30, 119, 104, 101, 97, 116, 45, 115, 117, 98, 115, 116, 97, 110, 99, 101, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, 61, -113, 46, 119, 100, -2, 26, 7, 56, -48, -115, -34, 98, 7, 9, -78], tunnelServerId=0, tunnelId=4218361, dataCenterId=28, portOffset=0}
+[07:24:41] [Thread-14/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[07:24:41] [Thread-14/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43784 to claim client
+[07:24:41] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[07:24:41] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[07:24:41] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[07:24:41] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[07:24:41] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[07:24:41] [Server thread/INFO]:   ____    ____                               
+[07:24:41] [Server thread/INFO]:  |  _ \  / ___|                              
+[07:24:41] [Server thread/INFO]:  | |_) || |       Phoenix Crates Lite v5.2.1      
+[07:24:41] [Server thread/INFO]:  |  __/ | |___    https://phoenixplugins.com/
+[07:24:41] [Server thread/INFO]:  |_|     \____|                             
+[07:24:41] [Server thread/INFO]:                                                  
+[07:24:41] [Server thread/INFO]: Loading settings...
+[07:24:41] [Server thread/INFO]: Loading file "config.yml".
+[07:24:41] [Server thread/INFO]: File "config.yml" is up to date. Importing configurations.
+[07:24:41] [Server thread/INFO]: Vault founded. Preparing hook...
+[07:24:41] [Server thread/INFO]: Checking for internal patchs...
+[07:24:41] [Server thread/INFO]: [PhoenixCratesLite] Current patch: #202509111232
+[07:24:41] [Server thread/INFO]: [PhoenixCratesLite] No patches to run.
+[07:24:41] [Server thread/INFO]: Placeholder API founded. Preparing placeholders...
+[07:24:41] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: phoenixcrates [1.0.0]
+[07:24:41] [Server thread/INFO]: Model Engine is not installed. If you want to support custom models in this plugin install it.
+[07:24:41] [Server thread/INFO]: -> (Meg 3) See more at: https://www.spigotmc.org/resources/conxeptworks-legacy-model-engine-1-16-5-1-20.79477/
+[07:24:41] [Server thread/INFO]: -> (Meg 4) See more at: https://mythiccraft.io/index.php?resources/20-off-model-engine%E2%80%94ultimate-entity-model-manager-1-19-4-1-20-1.1213/
+[07:24:41] [Server thread/INFO]: Loading components...
+[07:24:41] [Server thread/INFO]: Loading hologram templates...
+[07:24:41] [Server thread/INFO]: Loading file "templates.yml".
+[07:24:41] [Server thread/INFO]: File "templates.yml" is up to date. Importing configurations.
+[07:24:41] [Server thread/INFO]: Loading database...
+[07:24:41] [Server thread/WARN]: 4 [Server thread] INFO com.phoenixplugins.phoenixcrates.lib.hikari.HikariDataSource - CyberSQLitePool - Starting...
+[07:24:41] [Server thread/WARN]: 37 [Server thread] INFO com.phoenixplugins.phoenixcrates.lib.hikari.HikariDataSource - CyberSQLitePool - Start completed.
+[07:24:41] [Server thread/INFO]: Loading menus...
+[07:24:41] [Server thread/INFO]: Loading file "menus/default_rewards_preview.yml".
+[07:24:41] [Server thread/INFO]: File "menus/default_rewards_preview.yml" is up to date. Importing configurations.
+[07:24:41] [Server thread/INFO]: Loading file "menus/default_select_reward.yml".
+[07:24:41] [Server thread/INFO]: File "menus/default_select_reward.yml" is up to date. Importing configurations.
+[07:24:41] [Server thread/INFO]: Loading file "menus/confirmation_menu.yml".
+[07:24:41] [Server thread/INFO]: File "menus/confirmation_menu.yml" is up to date. Importing configurations.
+[07:24:41] [Server thread/INFO]: Loading file "internal_storage.yml".
+[07:24:41] [Server thread/INFO]: File "internal_storage.yml" is up to date. Importing configurations.
+[07:24:41] [Server thread/INFO]: Loading players data...
+[07:24:42] [Server thread/INFO]: Loading keys...
+[07:24:42] [Server thread/INFO]: No resource with the name "key.yml" founded.
+[07:24:42] [Server thread/INFO]: Loading file "keys/example2.yml".
+[07:24:42] [Server thread/INFO]: File "keys/example2.yml" is up to date. Importing configurations.
+[07:24:42] [Server thread/INFO]: No resource with the name "key.yml" founded.
+[07:24:42] [Server thread/INFO]: Loading file "keys/example3.yml".
+[07:24:42] [Server thread/INFO]: File "keys/example3.yml" is up to date. Importing configurations.
+[07:24:42] [Server thread/INFO]: No resource with the name "key.yml" founded.
+[07:24:42] [Server thread/INFO]: Loading file "keys/example1.yml".
+[07:24:42] [Server thread/INFO]: File "keys/example1.yml" is up to date. Importing configurations.
+[07:24:42] [Server thread/INFO]: Loaded 3 keys.
+[07:24:42] [Server thread/INFO]: Loading crates...
+[07:24:42] [Server thread/INFO]: Loading file "locations.yml".
+[07:24:42] [Server thread/INFO]: File "locations.yml" is up to date. Importing configurations.
+[07:24:42] [Thread-14/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.225:8978, peerAddr=106.203.235.47:62720, claimAddress=209.25.142.2:43784, claimToken=[44, 0, 108, -109, -71, -35, -31, 35, 18, 106, -53, -21, 47, -11, 0, 76, -14, 54, -90, -85, 8, 106, 89, -40, -71, 0, 0, 0, 0, 0, 37, 9, -121, 0, 0, 0, 0, 0, 98, 47, -62, 0, 0, 0, 0, 0, 64, 93, -7, 34, -127, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 2, 0, 1, 0, 38, 37, 0, -122, 6, 30, 119, 104, 101, 97, 116, 45, 115, 117, 98, 115, 116, 97, 110, 99, 101, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, 71, -64, -26, 97, 55, 40, -104, 3, 113, 102, 123, -99, -14, -41, 113, -39], tunnelServerId=0, tunnelId=4218361, dataCenterId=28, portOffset=0}
+[07:24:42] [Thread-14/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[07:24:42] [Thread-14/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43784 to claim client
+[07:24:42] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[07:24:42] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[07:24:42] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[07:24:42] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[07:24:42] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[07:24:42] [Server thread/INFO]: Loading file "crates/example2.yml".
+[07:24:42] [Server thread/INFO]: File "crates/example2.yml" is up to date. Importing configurations.
+[07:24:42] [Server thread/INFO]: Loading file "crates/example3.yml".
+[07:24:42] [Server thread/INFO]: File "crates/example3.yml" is up to date. Importing configurations.
+[07:24:42] [Server thread/INFO]: Loading file "crates/example1.yml".
+[07:24:42] [Server thread/INFO]: File "crates/example1.yml" is up to date. Importing configurations.
+[07:24:42] [Server thread/INFO]: Loaded 3 types.
+[07:24:42] [Server thread/INFO]: Loaded 0 crates.
+[07:24:42] [Server thread/INFO]: Loading commands...
+[07:24:42] [Server thread/INFO]: 
+[07:24:42] [Server thread/INFO]: Plugin loaded successfully!
+[07:24:42] [Server thread/INFO]: [Any questions or problems that may arise, contact us through
+[07:24:42] [Server thread/INFO]: the website or our discord: https://phoenixplugins.com/media/discord]
+[07:24:42] [Server thread/INFO]: 
+[07:24:42] [Server thread/INFO]: [voicechat] Enabling voicechat v2.6.20
+[07:24:42] [Server thread/INFO]: [voicechat] Initializing compatibility for version 1.21.11-R0.1
+[07:24:42] [Server thread/INFO]: [voicechat] Compatibility version 20
+[07:24:42] [Thread-14/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.225:8978, peerAddr=106.203.235.47:62728, claimAddress=209.25.142.2:43784, claimToken=[44, 0, 108, -109, -71, -35, -31, 35, 18, 106, -53, -21, 47, -11, 8, -34, 86, -66, -103, -85, 8, 106, 89, -40, -70, 0, 0, 0, 0, 0, 37, 9, -121, 0, 0, 0, 0, 0, 98, 47, -62, 0, 0, 0, 0, 0, 64, 93, -7, -9, 116, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 2, 0, 3, 0, 38, 37, 0, -122, 6, 30, 119, 104, 101, 97, 116, 45, 115, 117, 98, 115, 116, 97, 110, 99, 101, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, 50, -1, -109, 36, 126, -56, 22, -111, -107, -119, 124, -28, 86, 51, 55, -38], tunnelServerId=0, tunnelId=4218361, dataCenterId=28, portOffset=0}
+[07:24:42] [Thread-14/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[07:24:42] [Thread-14/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43784 to claim client
+[07:24:42] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[07:24:42] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[07:24:42] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[07:24:42] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[07:24:42] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[07:24:42] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[07:24:42] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: voicechat [2.6.20]
+[07:24:42] [Server thread/INFO]: [voicechat] Successfully registered PlaceholderAPI expansion
+[07:24:42] [Server thread/INFO]: [voicechat] Successfully added ViaVersion mappings
+[07:24:42] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.9.10
+[07:24:42] [Server thread/INFO]: [DecentHolograms] Initialized NMS adapter for paper_v1_21_R7 (1.21.11).
+[07:24:42] [Thread-14/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.225:8978, peerAddr=106.203.235.47:62736, claimAddress=209.25.142.2:43784, claimToken=[44, 0, 108, -109, -71, -35, -31, 35, 18, 106, -53, -21, 47, -11, 16, -82, 84, 51, -25, -85, 8, 106, 89, -40, -70, 0, 0, 0, 0, 0, 37, 9, -121, 0, 0, 0, 0, 0, 98, 47, -62, 0, 0, 0, 0, 0, 64, 93, -7, -99, -62, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 2, 0, 2, 0, 38, 37, 0, -122, 6, 30, 119, 104, 101, 97, 116, 45, 115, 117, 98, 115, 116, 97, 110, 99, 101, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, 71, 36, -124, 40, 76, -32, -5, 53, 11, -119, -5, -63, 80, -125, -74, -55], tunnelServerId=0, tunnelId=4218361, dataCenterId=28, portOffset=0}
+[07:24:42] [Thread-14/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[07:24:42] [Thread-14/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43784 to claim client
+[07:24:42] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[07:24:42] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[07:24:42] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[07:24:42] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[07:24:42] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
+[07:24:42] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R7' loaded!
+[07:24:42] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[07:24:42] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DecentHolograms' to create a bStats instance!
+[07:24:42] [Server thread/INFO]: [DecentHolograms] NBT-API loaded successfully.
+[07:24:42] [Server thread/INFO]: [ItemEdit] Enabling ItemEdit v3.7.8
+[07:24:42] [Server thread/INFO]: [ItemEdit] Hooking into MiniMessageAPI see https://webui.advntr.dev/
+[07:24:42] [Server thread/INFO]: [ItemEdit] Selected Storage Type: YAML
+[07:24:42] [Thread-14/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.225:8978, peerAddr=106.203.235.47:62744, claimAddress=209.25.142.2:43784, claimToken=[44, 0, 108, -109, -71, -35, -31, 35, 18, 106, -53, -21, 47, -11, 24, 106, -90, -109, -56, -85, 8, 106, 89, -40, -70, 0, 0, 0, 0, 0, 37, 9, -121, 0, 0, 0, 0, 0, 98, 47, -62, 0, 0, 0, 0, 0, 64, 93, -7, -90, -93, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 2, 0, 3, 0, 38, 37, 0, -122, 6, 30, 119, 104, 101, 97, 116, 45, 115, 117, 98, 115, 116, 97, 110, 99, 101, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, 43, -107, 123, 42, -45, -71, 117, -34, -124, -117, -45, -10, 49, -60, -73, 2], tunnelServerId=0, tunnelId=4218361, dataCenterId=28, portOffset=0}
+[07:24:42] [Thread-14/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[07:24:42] [Thread-14/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43784 to claim client
+[07:24:42] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[07:24:42] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[07:24:42] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[07:24:42] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[07:24:42] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[07:24:42] [Server thread/INFO]: [ItemEdit] Hooking into Vault
+[07:24:42] [Server thread/INFO]: [ItemEdit] Hooking into PlaceHolderAPI
+[07:24:42] [Server thread/INFO]: [ItemEdit] placeholders:
+[07:24:42] [Server thread/INFO]: [ItemEdit]   %itemedit_amount_<{itemid}>_[{slot}]_[{player}]%
+[07:24:42] [Server thread/INFO]: [ItemEdit]     shows how many itemid player has on slot
+[07:24:42] [Server thread/INFO]: [ItemEdit]     <{itemid}> for item id on serveritem
+[07:24:42] [Server thread/INFO]: [ItemEdit]     [{slot}] for the slot where the item should be counted, by default inventory
+[07:24:42] [Server thread/INFO]: [ItemEdit]       Values: inventory (include offhand), equip (include offhand), inventoryandequip (include offhand), hand, offhand, head, chest, legs, feet
+[07:24:42] [Server thread/INFO]: [ItemEdit]     [{player}] for the player, by default self
+[07:24:42] [Server thread/INFO]: [ItemEdit]     example: %itemedit_amount_{my_item_id}_{hand}%
+[07:24:42] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: itemedit [1.0]
+[07:24:42] [Server thread/INFO]: [ItemEdit] # Enabled (took 208 ms)
+[07:24:42] [Server thread/INFO]: [TAB] Enabling TAB v6.1.0
+[07:24:42] [Server thread/INFO]: [TAB] Found NMS implementation: me.neznamy.tab.platforms.bukkit.paper_1_21_11.NMSImplementationProvider
+[07:24:42] [Server thread/INFO]: [TAB] Enabled in 275ms
+[07:24:43] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v7.1.0
+[07:24:43] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initializing paper meta...
+[07:24:43] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-en.yml as language file
+[07:24:43] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 section configs from /sections/
+[07:24:43] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 shop configs from /shops/
+[07:24:43] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Updating Shop settings...
+[07:24:43] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into Vault and using EssentialsX Economy as economy provider
+[07:24:43] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 1 economy provider(s) for all 14 shop sections.
+[07:24:43] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using minecraft version 1.21.11...
+[07:24:43] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Spawner provider set to AUTO in config
+[07:24:43] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
+[07:24:43] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Failed to automatically find compatible spawner provider, using default...
+[07:24:43] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: esgui [1.1.0]
+[07:24:43] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Debug mode is enabled.
+[07:24:43] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Loading all items...
+[07:24:43] [Thread-14/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.225:8978, peerAddr=106.203.235.47:62752, claimAddress=209.25.142.2:43784, claimToken=[44, 0, 108, -109, -71, -35, -31, 35, 18, 106, -53, -21, 47, -11, 32, 113, 25, 77, -47, -85, 8, 106, 89, -40, -69, 0, 0, 0, 0, 0, 37, 9, -121, 0, 0, 0, 0, 0, 98, 47, -62, 0, 0, 0, 0, 0, 64, 93, -7, -106, -84, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 2, 0, 4, 0, 38, 37, 0, -122, 6, 30, 119, 104, 101, 97, 116, 45, 115, 117, 98, 115, 116, 97, 110, 99, 101, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, 15, -100, -58, 112, 33, 44, -127, 83, -113, 18, 5, -66, -80, -37, -52, -120], tunnelServerId=0, tunnelId=4218361, dataCenterId=28, portOffset=0}
+[07:24:43] [Thread-14/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[07:24:43] [Thread-14/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43784 to claim client
+[07:24:43] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[07:24:43] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[07:24:43] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[07:24:43] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[07:24:43] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[07:24:44] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initialized - Took 999ms to complete
+[07:24:44] [ESGUI_UTIL_THREAD #0/INFO]: [EconomyShopGUI] [INFO]: There is an update available for EconomyShopGUI, you are running v7.1.0 but found v7.1.1.
+[07:24:44] [ESGUI_UTIL_THREAD #0/INFO]: [EconomyShopGUI] [INFO]: Download at: https://www.spigotmc.org/resources/economyshopgui.69927/
+[07:24:44] [Server thread/INFO]: [spark] Starting background profiler...
+[07:24:44] [Thread-14/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.225:8978, peerAddr=106.203.235.47:62760, claimAddress=209.25.142.2:43784, claimToken=[44, 0, 108, -109, -71, -35, -31, 35, 18, 106, -53, -21, 47, -11, 40, 74, 96, 7, 84, -85, 8, 106, 89, -40, -68, 0, 0, 0, 0, 0, 37, 9, -121, 0, 0, 0, 0, 0, 98, 47, -62, 0, 0, 0, 0, 0, 64, 93, -7, -9, 47, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 38, 37, 0, -122, 6, 30, 119, 104, 101, 97, 116, 45, 115, 117, 98, 115, 116, 97, 110, 99, 101, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, 70, 113, -116, 77, -104, 64, 66, 70, 31, 80, -123, -92, -114, 88, 50, -37], tunnelServerId=0, tunnelId=4218361, dataCenterId=28, portOffset=0}
+[07:24:44] [Thread-14/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[07:24:44] [Thread-14/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43784 to claim client
+[07:24:44] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[07:24:44] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[07:24:44] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[07:24:44] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[07:24:44] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[07:24:44] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[07:24:44] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[07:24:44] [Server thread/INFO]: Running delayed init tasks
+[07:24:44] [Craft Scheduler Thread - 7 - Essentials/INFO]: [Essentials] Fetching version information...
+[07:24:44] [Craft Scheduler Thread - 6 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[07:24:44] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.regions.WorldGuardFeature] Plugin 'WorldGuard' found. Using it now.
+[07:24:44] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.FaweBukkit] Attempting to use plugin 'WorldGuard'
+[07:24:44] [Craft Scheduler Thread - 9 - DecentHolograms/INFO]: [DecentHolograms] Loading holograms... 
+[07:24:44] [Craft Scheduler Thread - 6 - Vault/INFO]: [Vault] Checking for Updates ... 
+[07:24:44] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[07:24:44] [Craft Scheduler Thread - 10 - ItemEdit/INFO]: [ItemEdit] NEW UPDATE (3.7.8 -> 3.7.10) available at https://modrinth.com/plugin/itemedit/version/latest
+[07:24:44] [Craft Scheduler Thread - 9 - DecentHolograms/INFO]: [DecentHolograms] Loaded 3 holograms!
+[07:24:44] [Craft Scheduler Thread - 11 - DecentHolograms/INFO]: 
 A newer version of DecentHolograms is available. Download it from: 
 - https://www.spigotmc.org/resources/96927/
 - https://modrinth.com/plugin/decentholograms
-[13:35:40] [Server thread/INFO]: [Citizens] Loaded 0 NPCs.
-[13:35:40] [Craft Scheduler Thread - 1 - Vault/INFO]: [Vault] No new version available
-[13:35:40] [Server thread/INFO]: [gg.playit.minecraft.PlayitPipelineInjector] injected playit header decoder into server channel: [id: 0x09a84883, L:/[0:0:0:0:0:0:0:0]:25565]
-[13:35:40] [Server thread/INFO]: [gg.playit.minecraft.PlayitBukkit] playit header decoder injected into server pipeline
-[13:35:40] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
-[13:35:40] [Server thread/INFO]: Done (39.950s)! For help, type "help"
-[13:35:40] [Server thread/INFO]: [PlaceholderAPI] An update for PlaceholderAPI (v2.12.3) is available at:
-[13:35:40] [Server thread/INFO]: [PlaceholderAPI] https://modrinth.com/plugin/placeholderapi
-[13:35:40] [Server thread/INFO]: [voicechat] Loading plugins
-[13:35:40] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
-[13:35:40] [Server thread/INFO]: [voicechat] Initializing plugins
-[13:35:40] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
-[13:35:40] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
-[13:35:40] [Paper Async Task Handler Thread - 1/WARN]: *************************************************************************************
-[13:35:40] [Paper Async Task Handler Thread - 1/WARN]: You are running the latest build for your Minecraft version (1.21.11)
-[13:35:40] [Paper Async Task Handler Thread - 1/WARN]: However, you are 2 release(s) behind the latest stable release (26.1.2)!
-[13:35:40] [Paper Async Task Handler Thread - 1/WARN]: It is recommended that you update as soon as possible
-[13:35:40] [Paper Async Task Handler Thread - 1/WARN]: https://papermc.io/downloads/paper
-[13:35:40] [Paper Async Task Handler Thread - 1/WARN]: *************************************************************************************
-[13:35:41] [Craft Scheduler Thread - 0 - Essentials/WARN]: [Essentials] You're 1 EssentialsX dev build(s) out of date!
-[13:35:41] [Craft Scheduler Thread - 0 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
-[13:35:50] [Thread-14/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[13:36:05] [Thread-14/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.225:8978, peerAddr=223.177.74.229:63788, claimAddress=209.25.142.2:43784, claimToken=[44, 0, 108, -109, -71, -35, -31, 35, 18, -33, -79, 74, -27, -7, 44, -1, -111, 82, -89, -85, 8, 106, 77, 0, -59, 0, 0, 0, 0, 0, 37, 9, -121, 0, 0, 0, 0, 0, 98, 47, -62, 0, 0, 0, 0, 0, 64, 93, -7, 82, -126, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 2, 0, 2, 0, 38, 37, 0, -122, 6, 30, 119, 104, 101, 97, 116, 45, 115, 117, 98, 115, 116, 97, 110, 99, 101, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, 70, -47, 121, -15, 60, 74, 12, -84, 40, 65, -2, 89, 81, -27, 88, -27], tunnelServerId=0, tunnelId=4218361, dataCenterId=28, portOffset=0}
-[13:36:05] [Thread-14/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[13:36:05] [Thread-14/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43784 to claim client
-[13:36:05] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[13:36:05] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[13:36:05] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[13:36:05] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[13:36:05] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[13:36:06] [Netty Epoll IO #1/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /223.177.74.229:63788
-[13:36:06] [Netty Epoll IO #1/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
-[13:36:46] [Thread-14/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.225:8978, peerAddr=223.177.74.229:49597, claimAddress=209.25.142.2:43784, claimToken=[44, 0, 108, -109, -71, -35, -31, 35, 18, -33, -79, 74, -27, -63, -67, -91, -24, 13, -35, -85, 8, 106, 77, 0, -19, 0, 0, 0, 0, 0, 37, 9, -121, 0, 0, 0, 0, 0, 98, 47, -62, 0, 0, 0, 0, 0, 64, 93, -7, -84, -72, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 2, 0, 5, 0, 38, 37, 0, -122, 6, 30, 119, 104, 101, 97, 116, 45, 115, 117, 98, 115, 116, 97, 110, 99, 101, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, -3, -86, -66, -112, 47, 56, 27, 114, -51, 23, 30, -6, 54, -89, -31, -43], tunnelServerId=0, tunnelId=4218361, dataCenterId=28, portOffset=0}
-[13:36:46] [Thread-14/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[13:36:46] [Thread-14/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43784 to claim client
-[13:36:46] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[13:36:46] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[13:36:46] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[13:36:46] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[13:36:46] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[13:36:46] [Netty Epoll IO #2/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /223.177.74.229:49597
-[13:36:46] [Netty Epoll IO #2/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
-[13:37:12] [Thread-14/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.225:8978, peerAddr=223.177.74.229:49616, claimAddress=209.25.142.2:43784, claimToken=[44, 0, 108, -109, -71, -35, -31, 35, 18, -33, -79, 74, -27, -63, -48, 107, -104, 114, -48, -85, 8, 106, 77, 1, 7, 0, 0, 0, 0, 0, 37, 9, -121, 0, 0, 0, 0, 0, 98, 47, -62, 0, 0, 0, 0, 0, 64, 93, -7, 53, -85, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 38, 37, 0, -122, 6, 30, 119, 104, 101, 97, 116, 45, 115, 117, 98, 115, 116, 97, 110, 99, 101, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, 28, -34, -36, -23, 110, -82, 109, 65, -125, 45, 87, -81, 12, -47, -126, -77], tunnelServerId=0, tunnelId=4218361, dataCenterId=28, portOffset=0}
-[13:37:12] [Thread-14/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[13:37:12] [Thread-14/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43784 to claim client
-[13:37:12] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[13:37:12] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[13:37:12] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[13:37:12] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[13:37:12] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[13:37:12] [Netty Epoll IO #3/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /223.177.74.229:49616
-[13:37:12] [Netty Epoll IO #3/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
-[13:37:18] [Thread-14/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.225:8978, peerAddr=223.177.74.229:49619, claimAddress=209.25.142.2:43784, claimToken=[44, 0, 108, -109, -71, -35, -31, 35, 18, -33, -79, 74, -27, -63, -45, 95, 93, -57, -29, -85, 8, 106, 77, 1, 14, 0, 0, 0, 0, 0, 37, 9, -121, 0, 0, 0, 0, 0, 98, 47, -62, 0, 0, 0, 0, 0, 64, 93, -7, -111, -66, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 2, 0, 4, 0, 38, 37, 0, -122, 6, 30, 119, 104, 101, 97, 116, 45, 115, 117, 98, 115, 116, 97, 110, 99, 101, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, -18, 89, -26, 25, 28, 45, -12, 94, 70, -90, -36, 10, -61, -124, 109, -62], tunnelServerId=0, tunnelId=4218361, dataCenterId=28, portOffset=0}
-[13:37:18] [Thread-14/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[13:37:18] [Thread-14/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43784 to claim client
-[13:37:18] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[13:37:18] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[13:37:18] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[13:37:18] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[13:37:18] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[13:37:18] [Netty Epoll IO #0/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /223.177.74.229:49619
-[13:37:18] [Netty Epoll IO #0/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
-[13:37:31] [Thread-14/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.225:8978, peerAddr=223.177.74.229:49629, claimAddress=209.25.142.2:43784, claimToken=[44, 0, 108, -109, -71, -35, -31, 35, 18, -33, -79, 74, -27, -63, -35, -73, 72, 30, -114, -85, 8, 106, 77, 1, 27, 0, 0, 0, 0, 0, 37, 9, -121, 0, 0, 0, 0, 0, 98, 47, -62, 0, 0, 0, 0, 0, 64, 93, -7, 13, 105, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 38, 37, 0, -122, 6, 30, 119, 104, 101, 97, 116, 45, 115, 117, 98, 115, 116, 97, 110, 99, 101, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, -110, -56, 26, 11, 0, 19, 5, 81, -32, 18, 82, -52, 4, 0, 8, -92], tunnelServerId=0, tunnelId=4218361, dataCenterId=28, portOffset=0}
-[13:37:31] [Thread-14/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[13:37:31] [Thread-14/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43784 to claim client
-[13:37:31] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[13:37:31] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[13:37:31] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[13:37:31] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[13:37:31] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[13:37:31] [Netty Epoll IO #1/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /223.177.74.229:49629
-[13:37:31] [Netty Epoll IO #1/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
+[07:24:44] [Craft Scheduler Thread - 6 - Vault/INFO]: [Vault] No new version available
+[07:24:45] [Thread-14/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.225:8978, peerAddr=106.203.235.47:62768, claimAddress=209.25.142.2:43784, claimToken=[44, 0, 108, -109, -71, -35, -31, 35, 18, 106, -53, -21, 47, -11, 48, 74, 117, -69, -95, -85, 8, 106, 89, -40, -67, 0, 0, 0, 0, 0, 37, 9, -121, 0, 0, 0, 0, 0, 98, 47, -62, 0, 0, 0, 0, 0, 64, 93, -7, 25, 124, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 2, 0, 1, 0, 38, 37, 0, -122, 6, 30, 119, 104, 101, 97, 116, 45, 115, 117, 98, 115, 116, 97, 110, 99, 101, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, -16, -118, -49, 76, 22, 85, -18, -82, -71, -12, 96, -122, -39, -52, -10, -109], tunnelServerId=0, tunnelId=4218361, dataCenterId=28, portOffset=0}
+[07:24:45] [Thread-14/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[07:24:45] [Thread-14/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43784 to claim client
+[07:24:45] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[07:24:45] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[07:24:45] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[07:24:45] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[07:24:45] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[07:24:45] [Craft Scheduler Thread - 7 - Essentials/WARN]: [Essentials] You're 1 EssentialsX dev build(s) out of date!
+[07:24:45] [Craft Scheduler Thread - 7 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[07:24:45] [Server thread/INFO]: [Citizens] Loaded 3 NPCs.
+[07:24:45] [Server thread/INFO]: [gg.playit.minecraft.PlayitPipelineInjector] injected playit header decoder into server channel: [id: 0x67f3c64a, L:/[0:0:0:0:0:0:0:0]:25565]
+[07:24:45] [Server thread/INFO]: [gg.playit.minecraft.PlayitBukkit] playit header decoder injected into server pipeline
+[07:24:45] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.11.0, you're on: 5.10.1-SNAPSHOT
+[07:24:45] [Thread-14/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.225:8978, peerAddr=106.203.235.47:62778, claimAddress=209.25.142.2:43784, claimToken=[44, 0, 108, -109, -71, -35, -31, 35, 18, 106, -53, -21, 47, -11, 58, -46, -96, 115, -27, -85, 8, 106, 89, -40, -67, 0, 0, 0, 0, 0, 37, 9, -121, 0, 0, 0, 0, 0, 98, 47, -62, 0, 0, 0, 0, 0, 64, 93, -7, 86, -64, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 2, 0, 1, 0, 38, 37, 0, -122, 6, 30, 119, 104, 101, 97, 116, 45, 115, 117, 98, 115, 116, 97, 110, 99, 101, 46, 103, 108, 46, 106, 111, 105, 110, 109, 99, 46, 108, 105, 110, 107, 99, -35, 1, -12, -64, -64, -54, 123, 95, -83, -12, 79, 63, 77, -35, 54, 126, -115, -1], tunnelServerId=0, tunnelId=4218361, dataCenterId=28, portOffset=0}
+[07:24:45] [Thread-14/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[07:24:45] [Thread-14/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43784 to claim client
+[07:24:45] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[07:24:45] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[07:24:45] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[07:24:45] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[07:24:45] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[07:24:46] [Netty Epoll IO #1/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /106.203.235.47:62720
+[07:24:46] [Netty Epoll IO #0/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /106.203.235.47:62744
+[07:24:46] [Netty Epoll IO #0/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
+[07:24:46] [Netty Epoll IO #3/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /106.203.235.47:62736
+[07:24:46] [Netty Epoll IO #1/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
+[07:24:46] [Netty Epoll IO #3/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
+[07:24:46] [Netty Epoll IO #2/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /106.203.235.47:62728
+[07:24:46] [Netty Epoll IO #2/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
+[07:24:46] [Server thread/INFO]: Done (42.368s)! For help, type "help"
+[07:24:46] [Server thread/INFO]: [PlaceholderAPI] An update for PlaceholderAPI (v2.12.3) is available at:
+[07:24:46] [Server thread/INFO]: [PlaceholderAPI] https://modrinth.com/plugin/placeholderapi
+[07:24:46] [Server thread/INFO]: [voicechat] Loading plugins
+[07:24:46] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[07:24:46] [Server thread/INFO]: [voicechat] Initializing plugins
+[07:24:46] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[07:24:46] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[07:24:46] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[07:24:46] [Netty Epoll IO #1/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /106.203.235.47:62752
+[07:24:46] [Netty Epoll IO #1/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
+[07:24:46] [nioEventLoopGroup-2-1/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[07:24:46] [nioEventLoopGroup-2-1/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[07:24:46] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[07:24:46] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[07:24:46] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[07:24:46] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[07:24:46] [Netty Epoll IO #0/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /106.203.235.47:62778
+[07:24:46] [Netty Epoll IO #0/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
+[07:24:46] [Netty Epoll IO #2/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /106.203.235.47:62760
+[07:24:46] [Netty Epoll IO #3/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /106.203.235.47:62768
+[07:24:46] [Netty Epoll IO #2/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
+[07:24:46] [Netty Epoll IO #3/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
+[07:24:46] [nioEventLoopGroup-2-1/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[07:24:46] [nioEventLoopGroup-2-1/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[07:24:46] [nioEventLoopGroup-2-1/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[07:24:46] [nioEventLoopGroup-2-1/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[07:24:46] [nioEventLoopGroup-2-1/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[07:24:46] [nioEventLoopGroup-2-1/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[07:24:46] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[07:24:46] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[07:24:47] [Paper Async Task Handler Thread - 1/WARN]: *************************************************************************************
+[07:24:47] [Paper Async Task Handler Thread - 1/WARN]: You are running the latest build for your Minecraft version (1.21.11)
+[07:24:47] [Paper Async Task Handler Thread - 1/WARN]: However, you are 2 release(s) behind the latest stable release (26.1.2)!
+[07:24:47] [Paper Async Task Handler Thread - 1/WARN]: It is recommended that you update as soon as possible
+[07:24:47] [Paper Async Task Handler Thread - 1/WARN]: https://papermc.io/downloads/paper
+[07:24:47] [Paper Async Task Handler Thread - 1/WARN]: *************************************************************************************
+[07:24:48] [Thread-14/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.225:8978, peerAddr=106.203.235.47:62782, claimAddress=209.25.142.2:43784, claimToken=[44, 0, 107, -109, -71, -35, -31, 35, 18, 106, -53, -21, 47, -11, 62, -69, -64, -34, 48, -85, 8, 106, 89, -40, -64, 0, 0, 0, 0, 0, 37, 9, -121, 0, 0, 0, 0, 0, 98, 47, -62, 0, 0, 0, 0, 0, 64, 93, -7, 84, 12, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 2, 0, 3, 0, 37, 36, 0, -122, 6, 29, 119, 104, 101, 97, 116, 45, 115, 117, 98, 115, 116, 97, 110, 99, 101, 46, 103, 108, 46, 97, 116, 46, 112, 108, 121, 46, 103, 103, 46, 35, 18, 2, -59, 41, 113, 58, -110, -21, -50, -66, 36, -59, -60, 125, 42, 20, -69, -84], tunnelServerId=0, tunnelId=4218361, dataCenterId=28, portOffset=0}
+[07:24:48] [Thread-14/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[07:24:48] [Thread-14/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43784 to claim client
+[07:24:48] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[07:24:48] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[07:24:48] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[07:24:48] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[07:24:48] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[07:24:48] [Netty Epoll IO #1/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] parsed playit header, true client IP: /106.203.235.47:62782
+[07:24:48] [Netty Epoll IO #1/INFO]: [gg.playit.minecraft.PlayitHeaderDecoder] updated connection address on handler: packet_handler
+[07:24:50] [User Authenticator #0/INFO]: UUID of player _Rishabh97 is 64d34f30-0ad5-399e-bcc6-28cf26af06d4
+[07:24:50] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib, WorldGuard]
+[07:24:52] [Server thread/INFO]: _Rishabh97 joined the game
+[07:24:52] [Server thread/INFO]: _Rishabh97[/106.203.235.47:62782] logged in with entity id 31 at ([survival]87.61453066960311, 289.0, 90.68197687823871)
+[07:24:53] [Server thread/INFO]: [voicechat] Received secret request of _Rishabh97 (20)
+[07:24:53] [Server thread/INFO]: [voicechat] Sent secret to _Rishabh97

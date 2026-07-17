@@ -1,3 +1,123 @@
 # Citizens NPC Storage
-{
-  }
+last-created-npc-id: 2
+npc:
+- metadata:
+    glowing: true
+  traits:
+    owner:
+      uuid: 64d34f30-0ad5-399e-bcc6-28cf26af06d4
+    scoreboardtrait:
+      color: GREEN
+      tags:
+      - CITIZENS_NPC
+    rotationtrait:
+      globalParameters: {
+        }
+    commandtrait:
+      commands:
+      - command: mvtp %player% survival
+        hand: RIGHT
+        player: true
+    skintrait: {
+      }
+    lookclose:
+      enabled: true
+      randomPitchRange:
+      - 0.0
+      - 0.0
+      randomYawRange:
+      - 0.0
+      - 360.0
+    location:
+      world: world
+      worldid: 042c31d2-b33d-4a2c-a137-30a9ff112d97
+      x: 426.5066
+      y: 209.0
+      z: 470.506
+      bodyYaw: -155.28409
+      pitch: 0.0
+      yaw: -155.2841
+    type: PLAYER
+  traitnames: owner,scoreboardtrait,spawned,rotationtrait,commandtrait,skintrait,leashedtrait,lookclose,location,type,inventory,chunktickettrait
+  name: '&r'
+  navigator:
+    usedefaultstuckaction: false
+    speedmodifier: 1.0
+    avoidwater: false
+  uuid: d8fd9303-aae5-46c1-b7c7-e7af7ac359aa
+- traits:
+    owner:
+      uuid: 64d34f30-0ad5-399e-bcc6-28cf26af06d4
+    scoreboardtrait:
+      tags:
+      - CITIZENS_NPC
+    rotationtrait:
+      globalParameters: {
+        }
+    commandtrait:
+      commands:
+      - command: rtp player %player%
+        hand: RIGHT
+    skintrait: {
+      }
+    lookclose:
+      enabled: true
+      randomPitchRange:
+      - 0.0
+      - 0.0
+      randomYawRange:
+      - 0.0
+      - 360.0
+    location:
+      world: survival
+      worldid: 594bf4b5-84bc-44eb-baa4-3a43f494a76f
+      x: 88.4794
+      y: 289.0
+      z: 110.4651
+      bodyYaw: -179.88174
+      pitch: 0.0
+      yaw: 179.7902
+    type: PLAYER
+  traitnames: owner,scoreboardtrait,spawned,rotationtrait,commandtrait,skintrait,leashedtrait,lookclose,location,type,inventory,chunktickettrait
+  name: '&r'
+  navigator:
+    usedefaultstuckaction: false
+    speedmodifier: 1.0
+    avoidwater: false
+  uuid: 720bb90f-d921-4ed7-816d-7a73354f3dbf
+- traits:
+    owner:
+      uuid: 64d34f30-0ad5-399e-bcc6-28cf26af06d4
+    scoreboardtrait:
+      tags:
+      - CITIZENS_NPC
+    commandtrait:
+      commands:
+      - command: ah
+        hand: RIGHT
+        player: true
+    lookclose:
+      randomYawRange:
+      - 0.0
+      - 360.0
+      randomPitchRange:
+      - 0.0
+      - 0.0
+      enabled: true
+    location:
+      world: survival
+      worldid: 594bf4b5-84bc-44eb-baa4-3a43f494a76f
+      x: 87.4662
+      y: 290.0
+      z: 88.5169
+      bodyYaw: -3.918808
+      pitch: 24.7401
+      yaw: -3.9188
+    type: PLAYER
+  traitnames: owner,scoreboardtrait,spawned,rotationtrait,commandtrait,skintrait,leashedtrait,lookclose,location,type,inventory,chunktickettrait
+  name: '&r'
+  navigator:
+    usedefaultstuckaction: false
+    speedmodifier: 1.0
+    avoidwater: false
+  uuid: 2046f99e-392b-4b8a-8fc3-6a63aa8046d1

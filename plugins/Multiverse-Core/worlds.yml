@@ -80,6 +80,88 @@ minecraft:overworld:
     legacy-world-name: world
     seed: -4738773596471492693
   version: 1.3
+minecraft:survival:
+  adjust-spawn: true
+  alias: ''
+  allow-advancement-grant: true
+  allow-flight: false
+  allow-weather: true
+  anchor-respawn: true
+  auto-heal: true
+  auto-load: true
+  bed-respawn: true
+  biome: ''
+  difficulty: easy
+  entry-fee:
+    enabled: false
+    amount: 0.0
+    currency: '@vault-economy'
+  gamemode: survival
+  generator: ''
+  hidden: false
+  hunger: true
+  keep-spawn-in-memory: false
+  meta: {}
+  player-limit: -1
+  portal-form: all
+  pvp: true
+  respawn-world: ''
+  scale: 1.0
+  spawn-location:
+    ==: MVSpawnLocation
+    x: 100.5
+    y: 290.0
+    z: 100.5
+    pitch: -0.45130077
+    yaw: 89.81339
+  spawning:
+    monster:
+      spawn: true
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
+      exceptions: []
+    animal:
+      spawn: true
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
+      exceptions: []
+    water_animal:
+      spawn: true
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
+      exceptions: []
+    water_ambient:
+      spawn: true
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
+      exceptions: []
+    water_underground_creature:
+      spawn: true
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
+      exceptions: []
+    ambient:
+      spawn: true
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
+      exceptions: []
+    axolotl:
+      spawn: true
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
+      exceptions: []
+    misc:
+      spawn: true
+      tick-rate: '@unset'
+      spawn-limit: '@unset'
+      exceptions: []
+  world-blacklist: []
+  read-only:
+    environment: normal
+    generator-settings: ''
+    legacy-world-name: survival
+    seed: -7075221364511274528
+  version: 1.3
 minecraft:the_end:
   adjust-spawn: true
   alias: ''

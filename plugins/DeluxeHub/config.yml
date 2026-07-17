@@ -53,6 +53,7 @@ disabled-worlds:
   # List your disabled worlds HERE or "worlds: []" to disable
   worlds:
     - world_nether
+    - survival
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 # | ANTI-WORLD DOWNLOADER                    | 
@@ -74,7 +75,7 @@ anti_wdl:
 
 scoreboard:
   # Should the scoreboard feature be enabled?
-  enabled: true
+  enabled: false
 
   # Should we delay showing the scoreboard?
   # Value in ticks (20 ticks = 1 second), 0 to disable
@@ -103,7 +104,7 @@ scoreboard:
 
 tablist:
   # Should the tablist feature be enabled?
-  enabled: true
+  enabled: false
 
   # Should we refresh the tablist (update placeholders)?
   refresh:
@@ -129,7 +130,7 @@ tablist:
 
 announcements:
   # Should the announcements system be enabled ?
-  enabled: true
+  enabled: false
 
   # Delay to send announcements (in seconds)
   delay: 60
@@ -282,11 +283,10 @@ join_events:
   - "[MESSAGE] &r"
   - "[MESSAGE] &r    &7Welcome, &b&n%player%&r &7to the server"
   - "[MESSAGE] &r"
-  - "[MESSAGE] &r  &2&lWEBSITE &fwww.examplemc.net"
-  - "[MESSAGE] &r  &3&lSTORE &fstore.examplemc.net"
-  - "[MESSAGE] &r  &9&lDISCORD &fdiscord.examplemc.net"
+  - "[MESSAGE] &r  &7&lWebsite - &3COMMING SOON"
+  - "[MESSAGE] &r  &6&lStore - &3COMMING SOON"
+  - "[MESSAGE] &r  &1&lDiscord - &3COMMING SOON"
   - "[MESSAGE] &r"
-  - "[MESSAGE] &r            &7&oPowered By DeluxeHub"
   - "[MESSAGE] &8&m+---------------***---------------+"
   - "[TITLE] &b&lWELCOME;&f%player%;1;2;1"
   - "[SOUND] ENTITY_PLAYER_LEVELUP"
@@ -327,9 +327,9 @@ custom_join_items:
 
   items:
     infobook:
-      material: BOOK
+      material: CLOCK
       amount: 1
-      slot: 0
+      slot: 1
       display_name: "&dServer Information"
       lore:
         - "&7Right-click to see information about the server!"
@@ -337,12 +337,12 @@ custom_join_items:
         - "[MESSAGE] &r"
         - "[MESSAGE] &e&lServer Information"
         - "[MESSAGE] &r"
-        - "[MESSAGE] &bWebsite: &fwww.examplemc.net"
-        - "[MESSAGE] &cStore: &fbuy.examplemc.net"
-        - "[MESSAGE] &dDiscord: &fdiscord.examplemc.net"
+        - "[MESSAGE]  &7&lWebsite - &3COMMING SOON"
+        - "[MESSAGE]  &6&lStore - &3COMMING SOON"
+        - "[MESSAGE]  &1&lDiscord - &3COMMING SOON"
         - "[MESSAGE] &r"
     server_selector:
-      material: NETHER_STAR
+      material: RECOVERY_COMPASS
       amount: 1
       slot: 4
       display_name: "&eServer Selector"
@@ -359,7 +359,7 @@ player_hider:
   # Should the player hider feature be enabled?
   enabled: true
   # Slot the item should be given to?
-  slot: 8
+  slot: 7
   # Should we prevent them from moving/dropping the item?
   disable_inventory_movement: true
   # Cooldown in seconds

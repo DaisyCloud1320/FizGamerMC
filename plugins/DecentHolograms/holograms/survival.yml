@@ -1,0 +1,22 @@
+location: world:426.507:213.742:470.506
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '#ICON: GRASS_BLOCK !ENCHANTED'
+    height: 0.6
+  - content: '&a&l&nSurvival'
+    height: 0.6
+  - content: '&fVersion: &a1.16&k1&a+'
+    height: 0.3
+  - content: '&fPlayers Online: &a%server_online%'
+    height: 0.3
+  - content: '&fStatus: &aOnline'
+    height: 0.6
+  - content: '&a&lCLICK TO JOIN'
+    height: 0.3
+  actions: {}

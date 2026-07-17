@@ -1,0 +1,18 @@
+location: survival:87.466:293.500:88.517
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '#ICON: RECOVERY_COMPASS'
+    height: 0.6
+  - content: '&b&lAuctions'
+    height: 0.3
+  - content: '&7/ah'
+    height: 0.3
+  - content: '&9↓ &fClick NPC &9↓'
+    height: 0.3
+  actions: {}
