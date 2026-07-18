@@ -34,9 +34,9 @@ npc:
       x: 426.5066
       y: 209.0
       z: 470.506
-      bodyYaw: 125.6122
-      pitch: 0.0
-      yaw: 126.7113
+      bodyYaw: 117.78674
+      pitch: 28.7413
+      yaw: 97.7867
     type: PLAYER
   traitnames: owner,scoreboardtrait,spawned,rotationtrait,commandtrait,skintrait,leashedtrait,lookclose,location,type,inventory,chunktickettrait
   name: '&r'
@@ -74,9 +74,9 @@ npc:
       x: 88.4794
       y: 289.0
       z: 110.4651
-      bodyYaw: 158.28499
-      pitch: -4.0175
-      yaw: 166.8964
+      bodyYaw: -140.74187
+      pitch: 0.0
+      yaw: -140.7419
     type: PLAYER
   traitnames: owner,scoreboardtrait,spawned,rotationtrait,commandtrait,skintrait,leashedtrait,lookclose,location,type,inventory,chunktickettrait
   name: '&r'
@@ -110,9 +110,9 @@ npc:
       x: 87.4662
       y: 290.0
       z: 88.5169
-      bodyYaw: -13.801262
-      pitch: 6.1579
-      yaw: -13.8013
+      bodyYaw: -20.758148
+      pitch: 1.2182
+      yaw: -20.7581
     type: PLAYER
   traitnames: owner,scoreboardtrait,spawned,rotationtrait,commandtrait,skintrait,leashedtrait,lookclose,location,type,inventory,chunktickettrait
   name: '&r'
@@ -133,22 +133,22 @@ npc:
         hand: RIGHT
         player: true
     lookclose:
-      randomYawRange:
-      - 0.0
-      - 360.0
+      enabled: true
       randomPitchRange:
       - 0.0
       - 0.0
-      enabled: true
+      randomYawRange:
+      - 0.0
+      - 360.0
     location:
       world: survival
       worldid: 594bf4b5-84bc-44eb-baa4-3a43f494a76f
       x: 83.4675
       y: 290.0
       z: 90.5186
-      bodyYaw: -41.57934
-      pitch: 6.1002
-      yaw: -41.5793
+      bodyYaw: -42.505768
+      pitch: 1.1776
+      yaw: -42.5058
     type: PLAYER
   traitnames: owner,scoreboardtrait,spawned,rotationtrait,commandtrait,skintrait,leashedtrait,lookclose,location,type,inventory,chunktickettrait
   name: '&r'
