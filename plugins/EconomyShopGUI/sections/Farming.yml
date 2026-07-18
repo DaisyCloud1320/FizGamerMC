@@ -1,5 +1,5 @@
 enable: true
-slot: 21
+slot: 15
 title: ''
 hidden: false
 sub-section: false
@@ -9,6 +9,8 @@ fill-item:
 nav-bar:
   mode: INHERIT
 item:
-  material: WHEAT
-  displayname: '&a&lFarming'
-  name: '&a&lFarming'
+  material: SUGAR_CANE
+  lore:
+  - '&fClick to view Farm Shop'
+  displayname: '&aꜰᴀʀᴍs'
+  name: 'Sʜᴏᴘ - ꜰᴀʀᴍs'

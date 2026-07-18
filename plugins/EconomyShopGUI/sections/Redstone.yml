@@ -1,5 +1,5 @@
 enable: true
-slot: 33
+slot: 11
 title: ''
 hidden: false
 sub-section: false
@@ -11,6 +11,6 @@ nav-bar:
 item:
   material: REDSTONE
   lore:
-  - '&4&lFor all redstone geeks!'
-  displayname: '&c&lRedstone'
-  name: '&c&lRedstone'
+  - '&fClick to view Redstone Shop'
+  displayname: '&aʀᴇᴅsᴛᴏɴᴇ'
+  name: 'Sʜᴏᴘ - ʀᴇᴅsᴛᴏɴᴇ'

@@ -1,0 +1,8 @@
+enable: true
+item:
+  material: NETHERRACK
+  lore:
+  - '&fClick to view Nether Shop'
+  displayname: '&aɴᴇᴛʜᴇʀ'
+  name: 'Sʜᴏᴘ - ɴᴇᴛʜᴇʀ'
+slot: 17

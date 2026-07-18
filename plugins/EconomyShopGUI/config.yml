@@ -335,10 +335,10 @@ main-menu:
   # The size of the main shop inventory in rows
   # Possible values: 2 | 3 | 4 | 5 | 6
   # Note that the navigation bar also is 1 row(unless disabled)
-  gui-rows: 6
+  gui-rows: 4
   # The fill item for inside the main menu which will fill empty spots
   fill-item:
-    material: GRAY_STAINED_GLASS_PANE
+    material: AIR
     name: ' '
     enable: true
 
@@ -395,28 +395,28 @@ main-menu-nav-bar:
       lore:
       - '%translations-money%: &c%player_balance%'
     2:
-      material: GRAY_STAINED_GLASS_PANE
+      material: AIR
       name: ' '
     3:
-      material: GRAY_STAINED_GLASS_PANE
+      material: AIR
       name: ' '
     4:
-      material: GRAY_STAINED_GLASS_PANE
+      material: AIR
       name: ' '
     5:
-      material: GRAY_STAINED_GLASS_PANE
+      material: AIR
       name: ' '
     6:
-      material: GRAY_STAINED_GLASS_PANE
+      material: AIR
       name: ' '
     7:
-      material: GRAY_STAINED_GLASS_PANE
+      material: AIR
       name: ' '
     8:
-      material: GRAY_STAINED_GLASS_PANE
+      material: AIR
       name: ' '
     9:
-      material: ARROW
+      material: BARRIER
       name: '%translations-cancel%'
       action: BACK
 
@@ -426,40 +426,40 @@ shops-nav-bar:
   enabled: true
   items:
     1:
-      material: GRAY_STAINED_GLASS_PANE
+      material: AIR
       name: ' '
     2:
-      material: GRAY_STAINED_GLASS_PANE
+      material: AIR
       name: ' '
     3:
-      material: GRAY_STAINED_GLASS_PANE
+      material: AIR
       name: ' '
     4:
-      material: red_stained_glass_pane
+      material: ARROW
       name: '%translations-previous-page%'
       action: PAGE_BACK
       paginated:
         enabled: true
         orElse:
-          material: GRAY_STAINED_GLASS_PANE
+          material: AIR
           name: ' '
     5:
       material: NETHER_STAR
       name: '%translations-current-page%'
     6:
-      material: blue_stained_glass_pane
+      material: ARROW
       name: '%translations-next-page%'
       action: PAGE_NEXT
       paginated:
         enabled: true
         orElse:
-          material: GRAY_STAINED_GLASS_PANE
+          material: AIR
           name: ' '
     7:
-      material: GRAY_STAINED_GLASS_PANE
+      material: AIR
       name: ' '
     8:
-      material: GRAY_STAINED_GLASS_PANE
+      material: AIR
       name: ' '
     9:
       material: ARROW
@@ -478,13 +478,13 @@ transaction-screens-nav-bar:
       lore:
       - '%translations-money%: &c%player_balance%'
     2:
-      material: GRAY_STAINED_GLASS_PANE
+      material: AIR
       name: ' '
     3:
-      material: GRAY_STAINED_GLASS_PANE
+      material: AIR
       name: ' '
     4:
-      material: GRAY_STAINED_GLASS_PANE
+      material: AIR
       name: ' '
     5:
       material: REDSTONE_TORCH
@@ -494,16 +494,16 @@ transaction-screens-nav-bar:
       paginated:
         enabled: true
         orElse:
-          material: GRAY_STAINED_GLASS_PANE
+          material: AIR
           name: ' '
     6:
-      material: GRAY_STAINED_GLASS_PANE
+      material: AIR
       name: ' '
     7:
-      material: GRAY_STAINED_GLASS_PANE
+      material: AIR
       name: ' '
     8:
-      material: GRAY_STAINED_GLASS_PANE
+      material: AIR
       name: ' '
     9:
       material: ARROW
@@ -548,16 +548,16 @@ sellgui-nav-bar:
   enabled: true
   items:
     1:
-      material: GRAY_STAINED_GLASS_PANE
+      material: AIR
       name: ' '
     2:
-      material: GRAY_STAINED_GLASS_PANE
+      material: AIR
       name: ' '
     3:
-      material: GRAY_STAINED_GLASS_PANE
+      material: AIR
       name: ' '
     4:
-      material: GRAY_STAINED_GLASS_PANE
+      material: AIR
       name: ' '
     5:
       material: NETHER_STAR
@@ -568,16 +568,16 @@ sellgui-nav-bar:
       - '&eItems that couldn''t be sold'
       - '&ewill be given back to you.'
     6:
-      material: GRAY_STAINED_GLASS_PANE
+      material: AIR
       name: ' '
     7:
-      material: GRAY_STAINED_GLASS_PANE
+      material: AIR
       name: ' '
     8:
-      material: GRAY_STAINED_GLASS_PANE
+      material: AIR
       name: ' '
     9:
-      material: GRAY_STAINED_GLASS_PANE
+      material: AIR
       name: ' '
 
 

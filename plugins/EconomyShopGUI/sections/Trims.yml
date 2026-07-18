@@ -1,0 +1,8 @@
+enable: true
+item:
+  material: SENTRY_ARMOR_TRIM_SMITHING_TEMPLATE
+  lore:
+  - '&fClick to view Trim Shop'
+  displayname: '&aᴛʀɪᴍs'
+  name: 'Sʜᴏᴘ - ᴛʀɪᴍs'
+slot: 16

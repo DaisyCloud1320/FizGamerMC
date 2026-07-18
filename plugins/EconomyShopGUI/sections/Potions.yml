@@ -1,5 +1,5 @@
 enable: true
-slot: 41
+slot: 13
 title: ''
 hidden: false
 sub-section: false
@@ -11,5 +11,7 @@ nav-bar:
 item:
   potion-glow: true
   material: POTION
-  displayname: '&d&lPotions + Tipped Arrows'
-  name: '&d&lPotions + Tipped Arrows'
+  lore:
+  - '&fClick to view Potions Shop'
+  displayname: '&aᴘᴏᴛɪᴏɴs & ᴛᴏᴏʟs'
+  name: 'Sʜᴏᴘ - ᴘᴏᴛɪᴏɴs & ᴛᴏᴏʟs'

@@ -1,5 +1,5 @@
 # Citizens NPC Storage
-last-created-npc-id: 2
+last-created-npc-id: 3
 npc:
 - metadata:
     glowing: true
@@ -34,9 +34,9 @@ npc:
       x: 426.5066
       y: 209.0
       z: 470.506
-      bodyYaw: -155.28409
+      bodyYaw: 125.6122
       pitch: 0.0
-      yaw: -155.2841
+      yaw: 126.7113
     type: PLAYER
   traitnames: owner,scoreboardtrait,spawned,rotationtrait,commandtrait,skintrait,leashedtrait,lookclose,location,type,inventory,chunktickettrait
   name: '&r'
@@ -74,9 +74,9 @@ npc:
       x: 88.4794
       y: 289.0
       z: 110.4651
-      bodyYaw: -179.88174
-      pitch: 0.0
-      yaw: 179.7902
+      bodyYaw: 158.28499
+      pitch: -4.0175
+      yaw: 166.8964
     type: PLAYER
   traitnames: owner,scoreboardtrait,spawned,rotationtrait,commandtrait,skintrait,leashedtrait,lookclose,location,type,inventory,chunktickettrait
   name: '&r'
@@ -97,6 +97,42 @@ npc:
         hand: RIGHT
         player: true
     lookclose:
+      enabled: true
+      randomPitchRange:
+      - 0.0
+      - 0.0
+      randomYawRange:
+      - 0.0
+      - 360.0
+    location:
+      world: survival
+      worldid: 594bf4b5-84bc-44eb-baa4-3a43f494a76f
+      x: 87.4662
+      y: 290.0
+      z: 88.5169
+      bodyYaw: -13.801262
+      pitch: 6.1579
+      yaw: -13.8013
+    type: PLAYER
+  traitnames: owner,scoreboardtrait,spawned,rotationtrait,commandtrait,skintrait,leashedtrait,lookclose,location,type,inventory,chunktickettrait
+  name: '&r'
+  navigator:
+    usedefaultstuckaction: false
+    speedmodifier: 1.0
+    avoidwater: false
+  uuid: 2046f99e-392b-4b8a-8fc3-6a63aa8046d1
+- traits:
+    owner:
+      uuid: 64d34f30-0ad5-399e-bcc6-28cf26af06d4
+    scoreboardtrait:
+      tags:
+      - CITIZENS_NPC
+    commandtrait:
+      commands:
+      - command: shop
+        hand: RIGHT
+        player: true
+    lookclose:
       randomYawRange:
       - 0.0
       - 360.0
@@ -107,12 +143,12 @@ npc:
     location:
       world: survival
       worldid: 594bf4b5-84bc-44eb-baa4-3a43f494a76f
-      x: 87.4662
+      x: 83.4675
       y: 290.0
-      z: 88.5169
-      bodyYaw: -3.918808
-      pitch: 24.7401
-      yaw: -3.9188
+      z: 90.5186
+      bodyYaw: -41.57934
+      pitch: 6.1002
+      yaw: -41.5793
     type: PLAYER
   traitnames: owner,scoreboardtrait,spawned,rotationtrait,commandtrait,skintrait,leashedtrait,lookclose,location,type,inventory,chunktickettrait
   name: '&r'
@@ -120,4 +156,4 @@ npc:
     usedefaultstuckaction: false
     speedmodifier: 1.0
     avoidwater: false
-  uuid: 2046f99e-392b-4b8a-8fc3-6a63aa8046d1
+  uuid: 76bb5edf-143e-4ac5-bb57-a1d65c411091

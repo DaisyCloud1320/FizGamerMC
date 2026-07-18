@@ -1,5 +1,5 @@
 enable: true
-slot: 26
+slot: 12
 title: ''
 hidden: false
 sub-section: false
@@ -9,6 +9,8 @@ fill-item:
 nav-bar:
   mode: INHERIT
 item:
-  material: COOKED_BEEF
-  displayname: '&6&lFood'
-  name: '&6&lFood'
+  material: GOLDEN_CARROT
+  lore:
+  - '&fClick to view Food Shop'
+  displayname: '&aꜰᴏᴏᴅ'
+  name: 'Sʜᴏᴘ - ꜰᴏᴏᴅ'

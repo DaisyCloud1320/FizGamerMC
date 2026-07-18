@@ -1,0 +1,8 @@
+enable: true
+item:
+  material: TOTEM_OF_UNDYING
+  lore:
+  - '&fClick to view GEAR Shop'
+  displayname: '&aɢᴇᴀʀ'
+  name: 'Sʜᴏᴘ - ɢᴇᴀʀ'
+slot: 14
