@@ -34,9 +34,9 @@ npc:
       x: 426.5066
       y: 209.0
       z: 470.506
-      bodyYaw: 140.62172
-      pitch: 5.9261
-      yaw: 137.001
+      bodyYaw: 126.30359
+      pitch: 8.3536
+      yaw: 116.438
     type: PLAYER
   traitnames: owner,scoreboardtrait,spawned,rotationtrait,commandtrait,skintrait,leashedtrait,lookclose,location,type,inventory,chunktickettrait
   name: '&r'
@@ -74,9 +74,9 @@ npc:
       x: 88.4794
       y: 289.0
       z: 110.4651
-      bodyYaw: 139.86612
+      bodyYaw: -155.7638
       pitch: 0.0
-      yaw: 142.3813
+      yaw: -155.7638
     type: PLAYER
   traitnames: owner,scoreboardtrait,spawned,rotationtrait,commandtrait,skintrait,leashedtrait,lookclose,location,type,inventory,chunktickettrait
   name: '&r'
@@ -191,7 +191,7 @@ npc:
       - 360.0
     location:
       world: arcade
-      worldid: 1aca139c-7122-4784-9fbb-7c58f434350b
+      worldid: 051e640b-17b6-4b85-8882-40e13467dbf0
       x: 12.4858
       y: 209.0
       z: 120.5221

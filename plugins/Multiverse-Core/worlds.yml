@@ -27,11 +27,11 @@ minecraft:arcade:
   scale: 1.0
   spawn-location:
     ==: MVSpawnLocation
-    x: 12.533499399053671
+    x: -87.47910047503721
     y: 212.0
-    z: 76.50708498758854
-    pitch: 2.4432619
-    yaw: -0.4331665
+    z: -23.501278468954606
+    pitch: 0.1866121
+    yaw: -0.026855469
   spawning:
     monster:
       spawn: true
@@ -78,7 +78,7 @@ minecraft:arcade:
     environment: normal
     generator-settings: ''
     legacy-world-name: arcade
-    seed: 794708516638326820
+    seed: 3589848677384840299
   version: 1.3
 minecraft:overworld:
   adjust-spawn: true
@@ -437,11 +437,11 @@ minecraft:tntrun:
   scale: 1.0
   spawn-location:
     ==: MVSpawnLocation
-    x: 1011.6428425024176
-    y: 257.0
-    z: 87.55093403162074
-    pitch: 2.894638
-    yaw: -90.55997
+    x: 13.122376239629828
+    y: 307.0
+    z: -12.37725810002147
+    pitch: -0.71601105
+    yaw: 89.65698
   spawning:
     monster:
       spawn: true
@@ -488,5 +488,5 @@ minecraft:tntrun:
     environment: normal
     generator-settings: ''
     legacy-world-name: tntrun
-    seed: -3657473739124455702
+    seed: -4275140841335802822
   version: 1.3

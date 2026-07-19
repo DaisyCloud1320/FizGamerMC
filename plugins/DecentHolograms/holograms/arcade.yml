@@ -1,0 +1,23 @@
+location: world:413.492:213.719:470.530
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '#ICON: MAGENTA_GLAZED_TERRACOTTA !ENCHANTED'
+    height: 0.6
+  - content: '&d&l&nArcade Games'
+    height: 0.3
+  - content: '&fVersion: &d1.18&k1&d+'
+    height: 0.6
+  - content: '&fOnline: &d %server_online%'
+    height: 0.3
+  - content: '&fStatus: &aOnline'
+    height: 0.6
+  - content: '&d&lCLICK TO JOIN'
+    height: 0.3
+  actions: {}
+
