@@ -13,7 +13,7 @@ header-footer:
         - "&b&lFizGamerMC"
         - ""
         - "&3Online: &f%online%  &f|  &3Ping: &f%ping%  &f|  &3Tps: &f%tps%"
-        - "&b%world%  &3World&f:"
+        - ""
       footer:
         - ""
         - "&b[sᴛᴏʀᴇ]  &9[ᴅɪsᴄᴏʀᴅ]  &c[ʏᴏᴜᴛᴜʙᴇ]"
@@ -44,7 +44,7 @@ scoreboard-teams:
 playerlist-objective:
   enabled: true
   value: "%ping%"
-  fancy-value: "&7Ping: %ping%"
+  fancy-value: ""
   title: "TAB" # Only visible on Bedrock Edition
   render-type: INTEGER
   disable-condition: '%world%=disabledworld'

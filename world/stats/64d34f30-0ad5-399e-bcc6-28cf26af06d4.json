@@ -1,36 +1,33 @@
 {
   "stats": {
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 479,
+      "minecraft:walk_one_cm": 199265,
+      "minecraft:leave_game": 18,
+      "minecraft:walk_under_water_one_cm": 1604,
+      "minecraft:mob_kills": 1,
+      "minecraft:damage_taken": 590,
+      "minecraft:play_time": 464236,
+      "minecraft:damage_dealt": 293,
+      "minecraft:open_shulker_box": 3,
+      "minecraft:jump": 932,
+      "minecraft:time_since_death": 453,
+      "minecraft:drop": 6,
+      "minecraft:sprint_one_cm": 88124,
+      "minecraft:fall_one_cm": 11066,
+      "minecraft:total_world_time": 464236,
+      "minecraft:fly_one_cm": 827498,
+      "minecraft:walk_on_water_one_cm": 543,
+      "minecraft:crouch_one_cm": 4403,
+      "minecraft:sneak_time": 5678,
+      "minecraft:climb_one_cm": 993,
+      "minecraft:deaths": 4
+    },
     "minecraft:mined": {
       "minecraft:short_grass": 7,
       "minecraft:tall_grass": 4,
       "minecraft:sand": 4,
       "minecraft:short_dry_grass": 1
-    },
-    "minecraft:picked_up": {
-      "minecraft:oak_sign": 1,
-      "minecraft:stone_axe": 1,
-      "minecraft:sand": 3,
-      "minecraft:wheat_seeds": 1
-    },
-    "minecraft:custom": {
-      "minecraft:time_since_rest": 164288,
-      "minecraft:walk_one_cm": 100429,
-      "minecraft:leave_game": 10,
-      "minecraft:walk_under_water_one_cm": 989,
-      "minecraft:damage_dealt": 50,
-      "minecraft:play_time": 243804,
-      "minecraft:jump": 454,
-      "minecraft:time_since_death": 164253,
-      "minecraft:drop": 6,
-      "minecraft:sprint_one_cm": 48441,
-      "minecraft:fall_one_cm": 6243,
-      "minecraft:total_world_time": 243804,
-      "minecraft:fly_one_cm": 505835,
-      "minecraft:walk_on_water_one_cm": 205,
-      "minecraft:crouch_one_cm": 3077,
-      "minecraft:sneak_time": 2823,
-      "minecraft:climb_one_cm": 993,
-      "minecraft:deaths": 2
     },
     "minecraft:dropped": {
       "minecraft:stone_shovel": 1,
@@ -40,18 +37,43 @@
       "minecraft:stone_pickaxe": 1
     },
     "minecraft:used": {
-      "minecraft:stone": 1,
       "minecraft:sand": 3,
-      "minecraft:slime_block": 1,
-      "minecraft:polished_andesite": 11,
-      "minecraft:oak_sign": 1,
-      "minecraft:stone_brick_stairs": 1,
-      "minecraft:ladder": 25,
+      "minecraft:orange_stained_glass": 6,
+      "minecraft:pale_oak_sign": 5,
+      "minecraft:honeycomb": 5,
       "minecraft:vine": 40,
+      "minecraft:pink_stained_glass": 1,
       "minecraft:diorite": 5,
+      "minecraft:black_wool": 286,
+      "minecraft:gravel": 9,
+      "minecraft:stripped_oak_wood": 50,
+      "minecraft:glow_ink_sac": 5,
+      "minecraft:stone": 1,
+      "minecraft:red_sand": 1,
+      "minecraft:polished_andesite": 11,
+      "minecraft:slime_block": 1,
+      "minecraft:barrier": 1,
+      "minecraft:stone_brick_stairs": 1,
+      "minecraft:oak_sign": 1,
+      "minecraft:ladder": 25,
+      "minecraft:red_dye": 5,
       "minecraft:stone_bricks": 8,
       "minecraft:mossy_stone_bricks": 24,
       "minecraft:coarse_dirt": 7
+    },
+    "minecraft:picked_up": {
+      "minecraft:oak_sign": 1,
+      "minecraft:stone_axe": 1,
+      "minecraft:sand": 3,
+      "minecraft:wheat_seeds": 1,
+      "minecraft:bone": 1,
+      "minecraft:arrow": 1
+    },
+    "minecraft:killed_by": {
+      "minecraft:zombie": 1
+    },
+    "minecraft:killed": {
+      "minecraft:skeleton": 1
     }
   },
   "DataVersion": 4671

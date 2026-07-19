@@ -1,5 +1,5 @@
 # Citizens NPC Storage
-last-created-npc-id: 3
+last-created-npc-id: 4
 npc:
 - metadata:
     glowing: true
@@ -34,9 +34,9 @@ npc:
       x: 426.5066
       y: 209.0
       z: 470.506
-      bodyYaw: 117.78674
-      pitch: 28.7413
-      yaw: 97.7867
+      bodyYaw: 140.62172
+      pitch: 5.9261
+      yaw: 137.001
     type: PLAYER
   traitnames: owner,scoreboardtrait,spawned,rotationtrait,commandtrait,skintrait,leashedtrait,lookclose,location,type,inventory,chunktickettrait
   name: '&r'
@@ -74,9 +74,9 @@ npc:
       x: 88.4794
       y: 289.0
       z: 110.4651
-      bodyYaw: -140.74187
+      bodyYaw: 139.86612
       pitch: 0.0
-      yaw: -140.7419
+      yaw: 142.3813
     type: PLAYER
   traitnames: owner,scoreboardtrait,spawned,rotationtrait,commandtrait,skintrait,leashedtrait,lookclose,location,type,inventory,chunktickettrait
   name: '&r'
@@ -110,9 +110,9 @@ npc:
       x: 87.4662
       y: 290.0
       z: 88.5169
-      bodyYaw: -20.758148
-      pitch: 1.2182
-      yaw: -20.7581
+      bodyYaw: -19.810112
+      pitch: 5.2644
+      yaw: -19.8101
     type: PLAYER
   traitnames: owner,scoreboardtrait,spawned,rotationtrait,commandtrait,skintrait,leashedtrait,lookclose,location,type,inventory,chunktickettrait
   name: '&r'
@@ -146,9 +146,9 @@ npc:
       x: 83.4675
       y: 290.0
       z: 90.5186
-      bodyYaw: -42.505768
-      pitch: 1.1776
-      yaw: -42.5058
+      bodyYaw: -29.554497
+      pitch: 5.493
+      yaw: -29.5545
     type: PLAYER
   traitnames: owner,scoreboardtrait,spawned,rotationtrait,commandtrait,skintrait,leashedtrait,lookclose,location,type,inventory,chunktickettrait
   name: '&r'
@@ -157,3 +157,52 @@ npc:
     speedmodifier: 1.0
     avoidwater: false
   uuid: 76bb5edf-143e-4ac5-bb57-a1d65c411091
+- metadata:
+    cached-skin-uuid: ecae6766-0331-4d36-8d84-45443b6a9bb8
+    cached-skin-uuid-name: tntrun
+  traits:
+    owner:
+      uuid: 64d34f30-0ad5-399e-bcc6-28cf26af06d4
+    scoreboardtrait:
+      tags:
+      - CITIZENS_NPC
+    hologramtrait:
+      lines:
+      - renderer:
+          seeThrough: false
+          interpolationDelay: 0
+          shadowed: false
+          interpolationDuration: 0
+          billboard: CENTER
+        margin:
+          top: 0.0
+          bottom: 0.0
+        text: '&eClick To Play'
+    skintrait:
+      signature: S3RVbnrWNFD+X93+8N3Bq3ZSL9jWlgFmzw0y7ZlwlnaXQ+2OaPXzQRav68ZmeJMgXrLOi3ZoCkxBbcuK2tXo8BYmUC+obadbsN7dZgb/55unLHnqbMO4Z3/KeVQOsbtU+8iftbLPZ87uqWSnF9+xQ5qVcgSjpQF52BgCLE/ddRPTyTKKQZ90blES9s9As2ilplt55ZA3XWiPwtutr4FKDHqXDfCKchg9zumfzwHhutFK4DED8FZkyBusd4TbiTHOqomxg3fvEZpPzK07khn07CRB4Kn/OCUYpS6F/1nG7ymbPbw5oJEgsghpT1z+q02j6bzhXNP+ZArc4Re3Q9XjKQqCH1MJFA2FUplaVVi1TN2pbGJb3FUPM/V6snSN9XlitiS3/ESlrpL99g5YgNNguvWUyFWDtF3iqJHegy8J4rKpJ/32VHdq368WuKNx26QmZwQh+LbuLjv4fg22Iv01Za5G2uzJuhfrHh1oum0EcYPqmlkM/tSMGvdETjd+P0NFRwC6B6YgjqiS5jMJd4SkmN9YQIgXQAYZRSD33Ew8RLdt/ZlgKo5tpK1FPsVMooQXUJGBF0DBvijJuVPnP1kVwuqXVXkODcf5rW81VEL4G2HXBHOQ68OsyOhj0sSSNMHbc+QrgU4Q55NRhxWwqD/z5T3N/MvIqKk43uftB4Ot+9Q=
+      textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc4NDQ0MjE3OTY1MCwKICAicHJvZmlsZUlkIiA6ICJlY2FlNjc2NjAzMzE0ZDM2OGQ4NDQ1NDQzYjZhOWJiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUTlRSdW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2YzMWMzM2Q3YWY5MWMyN2UwMjhjYjBlOTAxYmMwMTNjZWNjYzg2YzE0Y2Y1OGRmMGE5ZmU1ZDAwMGNhYWE3NyIKICAgIH0KICB9Cn0=
+    lookclose:
+      enabled: true
+      randomPitchRange:
+      - 0.0
+      - 0.0
+      randomYawRange:
+      - 0.0
+      - 360.0
+    location:
+      world: arcade
+      worldid: 1aca139c-7122-4784-9fbb-7c58f434350b
+      x: 12.4858
+      y: 209.0
+      z: 120.5221
+      bodyYaw: -177.2025
+      pitch: 22.1263
+      yaw: -177.2025
+    type: PLAYER
+  traitnames: owner,scoreboardtrait,spawned,rotationtrait,hologramtrait,skintrait,leashedtrait,lookclose,location,type,inventory,chunktickettrait
+  name: '&a&lTNTrun'
+  navigator:
+    usedefaultstuckaction: false
+    speedmodifier: 1.0
+    avoidwater: false
+  uuid: 88c68405-b94a-4cf7-93a0-05de95144fcf

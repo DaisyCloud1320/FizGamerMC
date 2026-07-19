@@ -1,5 +1,5 @@
 internal-storage:
-  scope-id: baa49646bba34e8cb5c4050fc2d34868
+  scope-id: 7336e9a9a3344e3198fd20b79484d132
   items: {}
 enabled: true
 identifier: example2
@@ -43,7 +43,7 @@ max-win-rewards: 0
 rewards-mode: RANDOM
 rewards:
   '0':
-    identifier: reward_1783430104016
+    identifier: reward_1784439160055
     display-item:
       material: DIRT
       display-name: '&7Dirt'

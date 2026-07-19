@@ -54,7 +54,8 @@ disabled-worlds:
   worlds:
     - world_nether
     - survival
-
+    - arcade 
+    - tntrun
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 # | ANTI-WORLD DOWNLOADER                    | 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
@@ -176,7 +177,7 @@ launchpad:
 
   # Top and bottom block required to make a launchpad
   top_block: STONE_PRESSURE_PLATE
-  bottom_block: REDSTONE_BLOCK
+  bottom_block: SMOOTH_STONE_SLAB
 
   # Actions executed upon use of a launchpad
   actions:

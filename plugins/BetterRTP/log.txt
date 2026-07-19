@@ -1,20 +1,27 @@
-2026-07-18 14:52:28 [INFO]: Loading Overrides...
-2026-07-18 14:52:28 [INFO]: Loading World Types...
-2026-07-18 14:52:28 [INFO]: - World Type for 'world' set to 'NORMAL'
-2026-07-18 14:52:28 [INFO]: - World Type for 'world_nether' set to 'NETHER'
-2026-07-18 14:52:28 [INFO]: - World Type for 'world_the_end' set to 'NORMAL'
-2026-07-18 14:52:28 [INFO]: Loading Defaults...
-2026-07-18 14:52:28 [INFO]: Loading Custom Worlds...
-2026-07-18 14:52:28 [INFO]: [WARN] - Custom World 'custom_world_1' was not registered because world does NOT exist
-2026-07-18 14:52:28 [INFO]: [WARN] - Custom World 'other_custom_world' was not registered because world does NOT exist
-2026-07-18 14:52:28 [SEVERE]: The particle 'EXPLOSION_NORMAL' created a fatal error when loading particles! Your MC version isn't supported!
-2026-07-18 14:52:43 [INFO]: Database PLAYERS:Players configured and loaded!
-2026-07-18 14:52:43 [INFO]: Database QUEUE:Queue configured and loaded!
-2026-07-18 14:52:43 [INFO]: Database COOLDOWN:world configured and loaded!
-2026-07-18 14:52:43 [INFO]: Database COOLDOWN:world_nether configured and loaded!
-2026-07-18 14:52:43 [INFO]: Database COOLDOWN:world_the_end configured and loaded!
-2026-07-18 14:52:43 [INFO]: Database COOLDOWN:survival configured and loaded!
-2026-07-18 14:52:43 [INFO]: Database CHUNK_DATA:ChunkData configured and loaded!
-2026-07-18 14:52:45 [INFO]: Attempting to queue up some more safe locations...
-2026-07-18 14:52:46 [INFO]: Queueing paused, max queue limit reached!
-2026-07-18 14:54:55 [INFO]: Disabling BetterRTP v3.6.13
+2026-07-19 07:10:04 [INFO]: Loading Overrides...
+2026-07-19 07:10:04 [INFO]: Loading World Types...
+2026-07-19 07:10:04 [INFO]: - World Type for 'world' set to 'NORMAL'
+2026-07-19 07:10:04 [INFO]: - World Type for 'world_nether' set to 'NETHER'
+2026-07-19 07:10:04 [INFO]: - World Type for 'world_the_end' set to 'NORMAL'
+2026-07-19 07:10:04 [INFO]: Loading Defaults...
+2026-07-19 07:10:04 [INFO]: Loading Custom Worlds...
+2026-07-19 07:10:04 [INFO]: [WARN] - Custom World 'custom_world_1' was not registered because world does NOT exist
+2026-07-19 07:10:04 [INFO]: [WARN] - Custom World 'other_custom_world' was not registered because world does NOT exist
+2026-07-19 07:10:04 [SEVERE]: The particle 'EXPLOSION_NORMAL' created a fatal error when loading particles! Your MC version isn't supported!
+2026-07-19 07:10:15 [INFO]: Database CHUNK_DATA:ChunkData configured and loaded!
+2026-07-19 07:10:15 [INFO]: Database QUEUE:Queue configured and loaded!
+2026-07-19 07:10:15 [INFO]: Database COOLDOWN:world configured and loaded!
+2026-07-19 07:10:15 [INFO]: Database PLAYERS:Players configured and loaded!
+2026-07-19 07:10:15 [INFO]: Database COOLDOWN:world_nether configured and loaded!
+2026-07-19 07:10:15 [INFO]: Database COOLDOWN:world_the_end configured and loaded!
+2026-07-19 07:10:15 [INFO]: Database COOLDOWN:arcade configured and loaded!
+2026-07-19 07:10:15 [INFO]: Database COOLDOWN:survival configured and loaded!
+2026-07-19 07:10:15 [INFO]: Database COOLDOWN:tntrun configured and loaded!
+2026-07-19 07:10:16 [INFO]: Attempting to queue up some more safe locations...
+2026-07-19 07:10:19 [WARNING]: Seems like the world `tntrun` does not have a `WorldType` declared. Please add/fix this in the config.yml file! This world will be treated as an overworld! If this world is a nether world, configure it to NETHER (example: `- tntrun: NETHER`
+2026-07-19 07:11:19 [INFO]: Max attempts to create a Queue reached for default_tntrun (amount: 0)
+2026-07-19 07:11:19 [INFO]: Queueing paused, max queue limit reached!
+2026-07-19 07:32:00 [INFO]: CONSOLE executed: /rtp player _Rishabh97
+2026-07-19 07:32:00 [WARNING]: Seems like the world `survival` does not have a `WorldType` declared. Please add/fix this in the config.yml file! This world will be treated as an overworld! If this world is a nether world, configure it to NETHER (example: `- survival: NETHER`
+2026-07-19 07:32:01 [INFO]: -Removed a queue Location{world=CraftWorld{name=survival},x=448.5,y=77.0,z=-607.5,pitch=14.442363,yaw=20.309557}
+2026-07-19 07:39:29 [WARNING]: Seems like the world `arcade` does not have a `WorldType` declared. Please add/fix this in the config.yml file! This world will be treated as an overworld! If this world is a nether world, configure it to NETHER (example: `- arcade: NETHER`
