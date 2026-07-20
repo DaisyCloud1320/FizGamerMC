@@ -23,19 +23,21 @@ checkForUpdates: true
 # the first one in the list for which the player meets all of its conditions.
 worlds:
   # For the worlds 'pvp_arena_1' and 'pvp_arena_2', set the 'pvp' scoreboard.
-  '^(pvp_arena_1|pvp_arena_2)$': [ 'pvp' ]
+  '^(pvp_arena_1|pvp_arena_2)$': [ '' ]
 
   # For any world starting with 'survival_', the plugin will first try to show the
   # 'survival' scoreboard. If the player doesn't meet its conditions, it will then
   # check and display the 'economy' scoreboard if its conditions are met.
-  '^survival_\w+$': [ 'survival', 'economy' ]
+  '^survival_\w+$': [ '' ]
 
   # Sets the 'worldTheEnd' scoreboard specifically for the default End world.
-  '^world_the_end$': [ 'worldTheEnd' ]
+  '^world_the_end$': [ 'survival' ]
 
   # The default configuration for all other worlds that don't match the above patterns.
   # This acts as a fallback to ensure all worlds have the default scoreboard.
-  '[\w\s\-]*': [ 'default' ]
+  '[\w\s\-]*': [ 'lobby' ]
+world : [ 'lobby' ]
+survival : [ 'survival' ]
 
 ## Advanced Settings
 # Do not modify unless you know the implications.

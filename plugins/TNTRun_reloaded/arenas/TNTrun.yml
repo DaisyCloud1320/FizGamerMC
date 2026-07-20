@@ -123,3 +123,6 @@ displayfinalpositions: 3
 enableOnRestart: true
 shop:
   enabled: true
+menu:
+  item: ''
+  pvpitem: ''

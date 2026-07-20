@@ -86,18 +86,22 @@ scoreboard:
 
   # Should we refresh the scoreboard (update placeholders)?
   refresh:
-    enabled: true
+    enabled: false
     rate: 200 # In ticks (20 ticks = 1 second)
 
-  title: "&d&lDeluxeHub 3 &7(%online%/%online_max%)"
-  lines:
-    - "&7&m----------------------"
-    - "&e&lPlayer:"
-    - "  &f%player%"
-    - ""
-    - "&e&lRank:"
-    - "  &f%vault_rank%"
-    - "&7&m----------------------"
+  titles: '&#88762C&lF&#966129&lI&#A34D27&lZ&#B13824&lG&#BE2422&lA&#CC0F1F&lM&#B83423&lE&#A55926&lR&#917E2A&lM&#7DA32D&lC'
+  scores:
+    11: '&#88762C&l▬&#8F6C2B&l▬&#966129&l▬&#9C5728&l▬&#A34D27&l▬&#AA4326&l▬&#B13824&l▬&#B82E23&l▬&#BE2422&l▬&#C51920&l▬&#CC0F1F&l▬&#C31F21&l▬&#BA3022&l▬&#B24024&l▬&#A95125&l▬&#A06127&l▬&#977228&l▬&#8F822A&l▬&#86932B&l▬&#7DA32D&l▬'
+    10: '&7┃ &e👦  &f&l%player_name%'
+    9: '&f┃ &2✎ &fʀᴀɴᴋ: &f%luckperms_prefix%'
+    8: '&7┃ &#00bbff⌚ &fᴘʟᴀʏᴛɪᴍᴇ: &b%statistic_time_played:hours%H'
+    6: '&eɪɴꜰᴏ:'
+    5: '&f┃ &6☠ &fᴋɪʟʟ: &4%statistic_player_kills%'
+    4: '&7┃ &3🏹 &fᴅᴇᴀᴛʜѕ: &5%statistic_deaths%'
+    3: '&6ѕᴇʀᴠᴇʀ:'
+    2: '&f┃ &4☀ &fᴘɪɴɢ: &4%player_ping%'
+    1: '&7┃ &b☄ &fᴏɴʟɪɴᴇ: &a%server_online%'
+    0: '&#88762C&l▬&#8F6C2B&l▬&#966129&l▬&#9C5728&l▬&#A34D27&l▬&#AA4326&l▬&#B13824&l▬&#B82E23&l▬&#BE2422&l▬&#C51920&l▬&#CC0F1F&l▬&#C31F21&l▬&#BA3022&l▬&#B24024&l▬&#A95125&l▬&#A06127&l▬&#977228&l▬&#8F822A&l▬&#86932B&l▬&#7DA32D&l▬'
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 # |TABLIST                                   |

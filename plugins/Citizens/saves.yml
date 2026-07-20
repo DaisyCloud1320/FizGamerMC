@@ -1,5 +1,5 @@
 # Citizens NPC Storage
-last-created-npc-id: 4
+last-created-npc-id: 6
 npc:
 - metadata:
     glowing: true
@@ -34,9 +34,9 @@ npc:
       x: 426.5066
       y: 209.0
       z: 470.506
-      bodyYaw: 126.30359
-      pitch: 8.3536
-      yaw: 116.438
+      bodyYaw: 126.368805
+      pitch: 5.3344
+      yaw: 133.3704
     type: PLAYER
   traitnames: owner,scoreboardtrait,spawned,rotationtrait,commandtrait,skintrait,leashedtrait,lookclose,location,type,inventory,chunktickettrait
   name: '&r'
@@ -74,9 +74,9 @@ npc:
       x: 88.4794
       y: 289.0
       z: 110.4651
-      bodyYaw: -155.7638
+      bodyYaw: -174.28363
       pitch: 0.0
-      yaw: -155.7638
+      yaw: -174.2836
     type: PLAYER
   traitnames: owner,scoreboardtrait,spawned,rotationtrait,commandtrait,skintrait,leashedtrait,lookclose,location,type,inventory,chunktickettrait
   name: '&r'
@@ -110,9 +110,9 @@ npc:
       x: 87.4662
       y: 290.0
       z: 88.5169
-      bodyYaw: -19.810112
-      pitch: 5.2644
-      yaw: -19.8101
+      bodyYaw: 14.534607
+      pitch: 6.0913
+      yaw: 14.5346
     type: PLAYER
   traitnames: owner,scoreboardtrait,spawned,rotationtrait,commandtrait,skintrait,leashedtrait,lookclose,location,type,inventory,chunktickettrait
   name: '&r'
@@ -146,9 +146,9 @@ npc:
       x: 83.4675
       y: 290.0
       z: 90.5186
-      bodyYaw: -29.554497
-      pitch: 5.493
-      yaw: -29.5545
+      bodyYaw: -13.114899
+      pitch: 7.8443
+      yaw: -13.1149
     type: PLAYER
   traitnames: owner,scoreboardtrait,spawned,rotationtrait,commandtrait,skintrait,leashedtrait,lookclose,location,type,inventory,chunktickettrait
   name: '&r'
@@ -193,7 +193,7 @@ npc:
       world: arcade
       worldid: 051e640b-17b6-4b85-8882-40e13467dbf0
       x: 12.4858
-      y: 209.0
+      y: -60.0
       z: 120.5221
       bodyYaw: -177.2025
       pitch: 22.1263
@@ -206,3 +206,96 @@ npc:
     speedmodifier: 1.0
     avoidwater: false
   uuid: 88c68405-b94a-4cf7-93a0-05de95144fcf
+- metadata:
+    glowing: true
+  traits:
+    owner:
+      uuid: 64d34f30-0ad5-399e-bcc6-28cf26af06d4
+    scoreboardtrait:
+      color: DARK_PURPLE
+      tags:
+      - CITIZENS_NPC
+    commandtrait:
+      commands:
+      - command: mvtp %player% arcade
+        hand: RIGHT
+        player: true
+    lookclose:
+      enabled: true
+      randomPitchRange:
+      - 0.0
+      - 0.0
+      randomYawRange:
+      - 0.0
+      - 360.0
+    location:
+      world: world
+      worldid: 042c31d2-b33d-4a2c-a137-30a9ff112d97
+      x: 413.4993
+      y: 209.0
+      z: 470.4748
+      bodyYaw: -100.686676
+      pitch: 2.6014
+      yaw: -100.6867
+    type: PLAYER
+  traitnames: owner,scoreboardtrait,spawned,rotationtrait,commandtrait,skintrait,leashedtrait,lookclose,location,type,inventory,chunktickettrait
+  name: '&r'
+  navigator:
+    usedefaultstuckaction: false
+    speedmodifier: 1.0
+    avoidwater: false
+  uuid: 367efd9a-1338-4aed-84b1-4eccba85ac1c
+- metadata:
+    cached-skin-uuid: ecae6766-0331-4d36-8d84-45443b6a9bb8
+    cached-skin-uuid-name: tntrun
+  traits:
+    owner:
+      uuid: 64d34f30-0ad5-399e-bcc6-28cf26af06d4
+    scoreboardtrait:
+      tags:
+      - CITIZENS_NPC
+    commandtrait:
+      commands:
+      - command: tr join TNTrun
+        hand: RIGHT
+        player: true
+    hologramtrait:
+      lines:
+      - renderer:
+          seeThrough: false
+          interpolationDelay: 0
+          shadowed: false
+          interpolationDuration: 0
+          billboard: CENTER
+        margin:
+          top: 0.0
+          bottom: 0.0
+        text: '&eClick to Play'
+    skintrait:
+      signature: ZpT98bJOGwMKzIIobaCNt3pTiF6VuDKbtghltJCi/StlYynLjmwPZ8c2drhR8ro3OTmZi7lZKPMukIqyX+DT43AUVdzLsMC4xU7dSQ9id++VR7d3noRmqStyzXKrpL0J/4ztSV1oHmnMTyQgiKHc4BG2vI6t6knNiW8v9X8UQ2BXdRnz7qzIFNi2/9Qj8rRpW51a9A1tUToh7M82ueWCKvNh3RqO4eZfcpW+355+/ajP3faa42LsMHLFojV9J2POvrnbUaS0mPk3FIpUvg0dvjB1qcEOsK74/Trw7Di/Erh+Q8qN1zKrrRhUrK/bNeo+gtLMHuDbYdhTer+11qpW2UtPiKd2SQQPPAi7Xia79aN4VXegyHtoAchY581nZSXjArgWR8TUTnF7dmdMdNVCPz5pCun9gEtlISYqfW0hcukUHF6hwtdk7PB7b3HfWDR3pkS83tYlYZ+hnSYN2QPK6NfPLlpFauXLC7TlcsA9HeOWu71s653O4TYzEq4f5WIXgb8q39NVYnwY5kHl+HOHdsb7hZvS2B0plNzSzrhtVbb007Fs6zcvbcgjvAtvuAryr18LCfzIpinEdUc5kosfjdENWnRu6Kn5DaEd4u+vrHmJG7jmTbIYl7ioRP2dq7AVppTQ+OkdRyxz/5gSr03HM+/Q+o2gsfkUasiFgBtUQg4=
+      textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc4NDUyODUzMDk4MiwKICAicHJvZmlsZUlkIiA6ICJlY2FlNjc2NjAzMzE0ZDM2OGQ4NDQ1NDQzYjZhOWJiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUTlRSdW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2YzMWMzM2Q3YWY5MWMyN2UwMjhjYjBlOTAxYmMwMTNjZWNjYzg2YzE0Y2Y1OGRmMGE5ZmU1ZDAwMGNhYWE3NyIKICAgIH0KICB9Cn0=
+    lookclose:
+      enabled: true
+      randomPitchRange:
+      - 0.0
+      - 0.0
+      randomYawRange:
+      - 0.0
+      - 360.0
+    location:
+      world: arcade
+      worldid: 051e640b-17b6-4b85-8882-40e13467dbf0
+      x: -87.5306
+      y: 209.0
+      z: 20.4682
+      bodyYaw: 144.22751
+      pitch: 32.8353
+      yaw: 164.2275
+    type: PLAYER
+  traitnames: owner,scoreboardtrait,spawned,rotationtrait,commandtrait,skintrait,lookclose,type,inventory,hologramtrait,leashedtrait,location,chunktickettrait
+  name: '&a&lTNTrun'
+  navigator:
+    usedefaultstuckaction: false
+    speedmodifier: 1.0
+    avoidwater: false
+  uuid: 566da811-3775-4d6b-a036-a9613629b90c

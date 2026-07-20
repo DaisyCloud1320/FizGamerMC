@@ -1,0 +1,9 @@
+lobby:
+  world: tntrun
+  vector:
+    ==: Vector
+    x: 13.55187329524988
+    y: 307.0
+    z: -12.459423817318743
+  yaw: 92.0697
+  pitch: 1.5406077

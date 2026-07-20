@@ -53,23 +53,33 @@
 # Check out the examples bellow for more information.
 
 # Example of a simple Scoreboard layout.
-default:
-  titles: '&#54DAF4&lʏ&#54CCED&lᴏ&#54BEE6&lᴜ&#54B1DF&lʀ&#54A3D8&lꜱ&#5495D2&lᴇ&#5487CB&lʀ&#547AC4&lᴠ&#546CBD&lᴇ&#545EB6&lʀ'
+lobby:
+  titles: '&#23FB00&lᴍ&#3BF900&lᴄ&#54F600&lꜰ&#6CF401&lʟ&#85F201&lᴇ&#9DEF01&lᴇ&#B6ED01&lᴛ &#CEEB02&lᴠ&#E7E802&lѕ&#FFE602&lɴ'
   scores:
-    13: '&7&m●                                ●'
-    12: '   &9&lᴘʟᴀʏᴇʀ'
-    11: '     &7▪ &bɴᴀᴍᴇ &f%player_name%'
-    10: '     &7▪ &bʀᴀɴᴋ &fUnknown'
-    9:  ''
-    8:  '   &9&lꜱᴛᴀᴛꜱ'
-    7:  '     &7▪ &bʜᴇᴀʟᴛʜ &f%player_health%&7/&f%player_maxhealth%'
-    6:  '     &7▪ &bʟᴇᴠᴇʟ &f%player_level%'
-    5:  ''
-    4:  '   &9&lꜱᴇʀᴠᴇʀ'
-    3:  '     &7▪ &bʟᴀᴛᴇɴᴄʏ &f%player_ping%ms'
-    2:  '     &7▪ &bᴏɴʟɪɴᴇ &f%server_online%&7/&f%server_maxplayers%'
-    1:  '&7&m●                                ●'
-    0:  '        &7&oʀᴜɪᴘᴇʀᴇɪʀᴀ.ᴅᴇᴠ        '
+    10: '&9&l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+    9: '&7┃ &e👦  &d&l%player_name%'
+    8: '&f┃ &2✎ &fʀᴀɴᴋ: &f%luckperms_prefix%'
+    7: '&7┃ &#00bbff⌚ &fᴘʟᴀʏᴛɪᴍᴇ: &b%statistic_time_played:hours%H &b%statistic_time_played:minutes%M'
+    5: '&eɪɴꜰᴏ:'
+    4: '&f┃ &6☠ &fᴋɪʟʟ: &4%statistic_player_kills%'
+    3: '&7┃ &3🏹 &fᴅᴇᴀᴛʜѕ: &5%statistic_deaths%'
+    2: '&6ѕᴇʀᴠᴇʀ:'
+    1: '&f┃ &4☀ &fᴘɪɴɢ: &4%player_ping%'
+    0: '&7┃ &b☄ &fᴏɴʟɪɴᴇ: &a%server_online%'
+survival:
+  titles: '&#23FB00&lѕ&#62F501&lᴜ&#A1EF01&lʀ&#E0E902&lᴠ&#FBC502&lɪ&#F38301&lᴠ&#EA4201&lᴀ&#E20000&lʟ'
+  scores:
+    10: '&9&l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+    9: '&7┃ &e👦  &d&l%player_name%'
+    8: '&f┃ &2✎ &fʀᴀɴᴋ: &f%luckperms_prefix%'
+    7: '&7┃ &#00bbff⌚ &fᴘʟᴀʏᴛɪᴍᴇ: &b%statistic_time_played:hours%H &b%statistic_time_played:minutes%M'
+    6: '&f┃ &a💲 &fᴍᴏɴᴇʏ: &a$%vault_eco_balance%'
+    5: '&eɪɴꜰᴏ:'
+    4: '&f┃ &6☠ &fᴋɪʟʟ: &4%statistic_player_kills%'
+    3: '&7┃ &3🏹 &fᴅᴇᴀᴛʜѕ: &5%statistic_deaths%'
+    2: '&6ѕᴇʀᴠᴇʀ:'
+    1: '&f┃ &4☀ &fʙɪᴏᴍᴇ: &e%world_biome%'
+    0: '&7┃ &b☄ &fᴏɴʟɪɴᴇ: &a%server_online%'    
   # Hide scoreboard score numbers on supported versions.
   defaultHideNumber: true
   # Render each line every 20 ticks (1 second) (see Important Concepts).
